@@ -15,12 +15,6 @@ import discord
 from discord.ext import tasks
 from discord.ext.commands import Bot
 
-if not os.path.isfile("config.json"):
-    sys.exit("'config.json' not found! Please add it and try again.")
-else:
-    with open("config.json") as file:
-        config = json.load(file)
-
 """	
 Setup bot intents (events restrictions)
 For more information about intents, please go to the following websites:
@@ -53,7 +47,7 @@ intents.members = True
 
 intents = discord.Intents.default()
 
-bot = Bot(command_prefix=config["bot_prefix"], intents=intents)
+bot = Bot(command_prefix='them good memes', intents=intents)
 
 
 # The code in this even is executed when the bot is ready
