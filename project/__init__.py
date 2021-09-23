@@ -51,7 +51,7 @@ intents = discord.Intents.default()
 
 bot = Bot(command_prefix='them good memes', intents=intents)
 #client = discord.Client()
-last_time_checked=1631803922 
+last_time_checked=time.time()
 
 # The code in this even is executed when the bot is ready
 @bot.event
