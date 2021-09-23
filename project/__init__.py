@@ -10,7 +10,9 @@ import json
 import os
 import platform
 import sys
-
+import math
+import time
+import requests as r
 import discord
 from discord.ext import tasks
 from discord.ext.commands import Bot
@@ -48,7 +50,8 @@ intents.members = True
 intents = discord.Intents.default()
 
 bot = Bot(command_prefix='them good memes', intents=intents)
-
+#client = discord.Client()
+last_time_checked=1631803922 
 
 # The code in this even is executed when the bot is ready
 @bot.event
@@ -58,13 +61,30 @@ async def on_ready():
     print(f"Python version: {platform.python_version()}")
     print(f"Running on: {platform.system()} {platform.release()} ({os.name})")
     print("-------------------")
+    last_time_checked=time.time()
     status_task.start()
 
 
 # Setup the game status task of the bot
-@tasks.loop(minutes=1.0)
+@tasks.loop(minutes=5.0)
 async def status_task():
+    global last_time_checked
     await bot.change_presence(activity=discord.Game("them good memes"))
+    posts = r.get('https://www.reddit.com/r/FTC/new/.json', headers = {'User-agent': 'your bot 0.1'})
+    posts = posts.json()
+    posts = posts['data']['children']
+    memes = [ x for x in posts if ( x['data']['link_flair_text'] == 'Meme' and x['data']['created_utc'] > last_time_checked ) ]
+    memes.reverse()
+    for meme in memes:
+        embed=discord.Embed(title="New Meme on r/FTC", description="Behold, Meme!", color=0xe67e22, url="https://reddit.com" + meme['data']['permalink'])
+        embed.set_author(name=meme['data']['author'], url='https://reddit.com/u/'+meme['data']['author'])
+        embed.add_field(name=meme['data']['title'], value=":arrow_down: :arrow_down: :arrow_down:", inline=False)
+        url = meme['data']['url']
+        if url[-4:] == ".jpg" or url[-4:] == ".png" or url[-5:] == ".jpeg":
+            embed.set_image(url=meme['data']['url'])
+        channel = bot.get_channel(890416261396324382)
+        await channel.send(embed=embed)
+    last_time_checked = math.floor(time.time())
 
 
 # Removes the default help command of discord.py to be able to create our custom help command.
