@@ -10,7 +10,8 @@
         "7.0 The Robot",
         "8.0 Robot Inspection",
         "9.0 Judging and Award Criteria",
-        "10.0 Dean's List Award"
+        "10.0 Dean's List Award",
+        "Appendix Not Available, Please Go To https://www.firstinspires.org"
     ],
     "content":[
         {
@@ -1161,9 +1162,9 @@
                                 "**<RS03>** Allowed Software System Versions - The following table lists the Android Devices, minimum Android versions, minimum operating system and firmware versions, and minimum FTC software versions allowed per device.",
                                 "IMG:https://i.imgur.com/YlATe1N.png",
                                 "**IMPORTANT**: Rules <RS02> or <RS03> do not require that Teams upgrade to the latest version of the software. A mandatory upgrade (announced by FIRST) would only be required if FIRST determined there was a critical software fix that must be adopted by Teams. Teams must install the upgrade before the time of Competition. Additionally, beta versions of the software are allowed at official tournaments. Mandatory upgrades will be communicated in the following ways:",
-                                "• Via Team Blast (http://firstinspires.org/resource-library/ftc/team-email-blasts) – The mandatory upgrade and version number will be communicated to Teams on the Team Blast, which will also show the date the required upgrade must be made.",
-                                "• Online – the minimally required software will be listed on our Technology Resources (http://firstinspires.org/resource-library/ftc/technology-information-and-resources) page, with the date Teams are required to make the mandatory software upgrade.",
-                                "• Forum – The minimally required software will be listed in the Technology Forum (http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology&__hstc=212927755.8c47fe5c332447859bfe583000c1f507.1466607298723.1466607298723.1466607298723.1&__hssc=212927755.4.1466607298724&__hsfp=2853653097) page, with the date Teams are required to make the mandatory software upgrade.",
+                                "- Via Team Blast (http://firstinspires.org/resource-library/ftc/team-email-blasts) – The mandatory upgrade and version number will be communicated to Teams on the Team Blast, which will also show the date the required upgrade must be made.",
+                                "- Online – the minimally required software will be listed on our Technology Resources (http://firstinspires.org/resource-library/ftc/technology-information-and-resources) page, with the date Teams are required to make the mandatory software upgrade.",
+                                "- Forum – The minimally required software will be listed in the Technology Forum (http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology&__hstc=212927755.8c47fe5c332447859bfe583000c1f507.1466607298723.1466607298723.1466607298723.1&__hssc=212927755.4.1466607298724&__hsfp=2853653097) page, with the date Teams are required to make the mandatory software upgrade.",
                                 "Templates for all programming choices are available through the links located at http://www.firstinspires.org/node/5181.",
                                 "**<RS04>** Autonomous to Driver-Controlled Transition - Teams that expect to operate their Robot during the Autonomous period must demonstrate during Field Inspection the Driver Station switches the Robot Controller between Autonomous mode and Driver-Controlled mode.",
                                 "**<RS05>** Robot Controller App - The Robot Controller smartphone Android Device (if used) must have a designated “FTC Robot Controller” app that is the default application for the REV Expansion Hub. The Robot Controller app must not be installed on the Driver Station Android Device.",
@@ -1274,22 +1275,22 @@
 
                     ],
                     "content":[
-                        "<I01> Inspection - Every Robot is required to pass a full inspection before being cleared to compete. This inspection ensures that all FIRST Tech Challenge Robot rules are met.",
+                        "**<I01>** Inspection - Every Robot is required to pass a full inspection before being cleared to compete. This inspection ensures that all FIRST Tech Challenge Robot rules are met.",
                         "All Robot configurations must be inspected before being used in Competition.",
                         "a. If significant changes are made to a Robot after passing initial inspection, it must be re-inspected",
                         "before it can compete.",
                         "b. Referees or inspectors may request the re-inspection of a Robot. The Robot cannot participate in a Match until it passes re-inspection. Refusal to submit to re-inspection will result in Team disqualification from the Competition.",
                         "c. A Robot may be rejected at inspection if the lead inspector considers it unsafe.",
-                        "<I02> Practice Matches - FIRST Tech Challenge Teams must submit their Robot for inspection before participating in Practice Matches., A Robot may be allowed to participate in Practice Matches before passing inspection if allowed by the lead robot inspector.",
-                        "<I03> Qualification Matches - The Team’s Robot must pass all inspections before participating in Qualification Matches. Refusal to follow any Robot design, construction rule, or programming rules may result in disqualification of the Team at a FIRST Tech Challenge Competition.",
-                        "<I04> Re-Inspection – Physical changes to a Robot that improve performance or add capability must pass re- inspection prior to being eligible to play in the next Match. <I04> Safety - It is the inspector’s responsibility to evaluate Robots to ensure each Robot is designed to operate safely. Section 7 of this manual, and Game Manual Part 2, section 4.6.1 outlines the safety rules and limits that apply to the design and construction of all Robots.",
-                        "<I05> Passing Inspection - Robot inspection is a Pass or Fail process. A Robot has passed inspection when all requirements listed on the official FIRST Tech Challenge “Robot and Field Inspection” are successfully met and recorded as passed by an inspector.",
-                        "<I06> All Mechanisms are Inspected - For Inspection, the Robot must be presented with all mechanisms (including all parts of each, configurations, and decorations that will be used on the Robot during the Competition. Robots are allowed to play Matches with a subset of the mechanisms that were present during inspection. Only mechanisms that were present during inspection may be added, removed, or reconfigured between Matches. The Robot should be assembled in a typical configuration used for Matches play when reporting for inspection.",
+                        "**<I02>** Practice Matches - FIRST Tech Challenge Teams must submit their Robot for inspection before participating in Practice Matches., A Robot may be allowed to participate in Practice Matches before passing inspection if allowed by the lead robot inspector.",
+                        "**<I03>** Qualification Matches - The Team’s Robot must pass all inspections before participating in Qualification Matches. Refusal to follow any Robot design, construction rule, or programming rules may result in disqualification of the Team at a FIRST Tech Challenge Competition.",
+                        "**<I04>** Re-Inspection – Physical changes to a Robot that improve performance or add capability must pass re- inspection prior to being eligible to play in the next Match. <I04> Safety - It is the inspector’s responsibility to evaluate Robots to ensure each Robot is designed to operate safely. Section 7 of this manual, and Game Manual Part 2, section 4.6.1 outlines the safety rules and limits that apply to the design and construction of all Robots.",
+                        "**<I05>** Passing Inspection - Robot inspection is a Pass or Fail process. A Robot has passed inspection when all requirements listed on the official FIRST Tech Challenge “Robot and Field Inspection” are successfully met and recorded as passed by an inspector.",
+                        "**<I06>** All Mechanisms are Inspected - For Inspection, the Robot must be presented with all mechanisms (including all parts of each, configurations, and decorations that will be used on the Robot during the Competition. Robots are allowed to play Matches with a subset of the mechanisms that were present during inspection. Only mechanisms that were present during inspection may be added, removed, or reconfigured between Matches. The Robot should be assembled in a typical configuration used for Matches play when reporting for inspection.",
                         "a. Robot and all mechanisms must be inspected in every starting configuration.",
                         "b. If mechanisms are swapped out between Matches, the reconfigured Robot must still meet all Robot and",
                         "inspection rules.",
                         "c. The total of all electronics (motors, servos, Android devices, etc.) used to build all mechanisms and base Robot, whether they are used on the Robot at the same time or not, may not exceed the constraints specified in the Robot rules.",
-                        "<I07> Wheel or Tread Playing Field Damage Test - Robot inspectors have the authority to ask that a Team test their wheels or treads that they feel might cause damage to the Playing Field. Not every tread or wheel can be evaluated and posted as a legal or illegal part. Therefore, the tread test is a quick way to find out if a Team’s wheels or treads are Competition legal.",
+                        "**<I07>** Wheel or Tread Playing Field Damage Test - Robot inspectors have the authority to ask that a Team test their wheels or treads that they feel might cause damage to the Playing Field. Not every tread or wheel can be evaluated and posted as a legal or illegal part. Therefore, the tread test is a quick way to find out if a Team’s wheels or treads are Competition legal.",
                         "The robot inspector should place the Robot on top of a field tile and against an immovable surface (wall) and run the wheels at full power for 15 seconds. If there is any physical damage to the floor tile, the wheels will not be allowed. Discoloration or black marks alone are not considered field damage. The test must be made with the Robot at the weight it will be at during the Competition since this will affect the degree of damage."
                     ],
                     "subsections":[
@@ -1311,7 +1312,476 @@
 
             ],
             "subsections":[
+                {
+                    "title":"Overview",
+                    "table":[
 
+                    ],
+                    "content":[
+                        "This section provides descriptions of:",
+                        "- Engineering notebook recommendations",
+                        "- Engineering portfolio requirements and recommendations",
+                        "- How judging works",
+                        "- FIRST Tech Challenge award criteria",
+                        "Teams have spent a significant number of hours designing, building, programming their Robot, and learning what it takes to be part of a Team. For many Teams, the event is the reward for all their hard work throughout the season. While there are several types of events, they all offer a fun and exciting way for Teams to show the results of their efforts.",
+                        "The judged awards give us the opportunity to recognize Teams who embody important values like Gracious Professionalism®, teamwork, creativity, innovation, and the value of the engineering design process. These judging guidelines are a part of the road map to success.",
+                        "FIRST Tech Challenge provides judging feedback for Team who submit a completed judging feedback request form. When receiving feedback, Team should note the judging is a subjective process; and students are encouraged to learn the important life skill of self-evaluation to help them prepare for their judged interview. This helps students prepare for professional interviews while developing other real-world life skills. For a copy of the FIRST Tech Challenge Team Judging Session Self-Reflection Sheet please visit the website: http://www.firstinspires.org/node/5226"
+                    ],
+                    "subsections":[
+
+                    ]
+                },
+                {
+                    "title":"Engineering Notebook",
+                    "table":[
+                        "9.2.1 Overview",
+                        "9.2.2 What is an Engineering Notebook?",
+                        "9.2.3 Engineering Notebook Formats",
+                        "9.2.4 Engineering Notebook Recommendations"
+                    ],
+                    "content":[
+
+                    ],
+                    "subsections":[
+                        {
+                            "title":"Overview",
+                            "content":[
+                                "This section describes the engineering notebook."
+                            ]
+                        },
+                        {
+                            "title":"What is an Engineering Notebook?",
+                            "content":[
+                                "One of the goals of FIRST and FIRST Tech Challenge is to recognize the engineering design process and “the journey” that a Team makes in the phases of creating their Robot, including:",
+                                "- Problem definition",
+                                "- Information gathering",
+                                "- Brainstorming solutions",
+                                "- Concept design",
+                                "- System level design",
+                                "- Testing",
+                                "- Design improvement",
+                                "- Production",
+                                "- Promotion",
+                                "- Budgeting",
+                                "- Planning",
+                                "- Outreach",
+                                "Throughout the process of building and designing a Robot, Teams will draw ideas on paper, encounter obstacles, and learn valuable lessons. This is where Teams will use an engineering notebook. These notebooks follow the Team from the end of the prior season throughout the Competitions.",
+                                "The engineering notebook is an optional item but is a fundamental source of information for the Team to use to be able to create the engineering portfolio.",
+                                "Judges may ask the Team to provide specific information from their engineering notebook to better understand the journey, design, and Team and to get more details and background than would be in the Team’s engineering portfolio.",
+                                "The engineering notebook is the documentation repository of the Team, outreach and fund-raising efforts, Team plans, and the Robot design. This documentation can include sketches, discussions and Team meetings, design evolution, processes, obstacles, and each Team member’s thoughts throughout the journey for the entire season.",
+                                "In the FIRST Tech Challenge, engineering notebooks can include business planning, outreach goals and achievement, and a Team’s insights into what it is to be a FIRST Tech Challenge Team.",
+                                "**Teams should be careful to include only the first name of Team members in their engineering notebook. A new notebook and portfolio must be created for each new season.** Teams may consider their new season as beginning after their final event for the previous season."
+                            ]
+                        },
+                        {
+                            "title":"Engineering Notebook Formats",
+                            "content":[
+                                "Teams may record their season with either handwritten or electronic documents. There is no distinction made between handwritten and electronic engineering notebooks during judging; each format is equally acceptable.",
+                                "a) Electronic: Teams may use electronic programs to create their engineering notebook.",
+                                "b) Handwritten: Teams may add handwritten text, drawings, or cad drawings, but recognize that the Team",
+                                "may need to scan (or take a picture) of each page.",
+                                "For judging at a remote event, Teams should create an electronic copy of their engineering notebook. During the second interview, Judges may ask the Team to share specific pages from the engineering notebook. Teams will not upload their engineering notebook to the FTC Scoring System.",
+                                "For judging purposes at a traditional event, Teams should have a physical copy of their engineering notebook available in the Team’s Pit Area for judges to look at as needed. Judges may ask to see specific content from the engineering notebook during pit interviews. Engineering notebooks will not be collected by the event organizer or the event judges."
+                            ]
+                        },
+                        {
+                            "title":"Engineering Notebook Recommendations",
+                            "content":[
+                                "We strongly recommend that a one-page summary be included in the notebook near the front that connects the information from the engineering portfolio to the relevant section or pages in the engineering notebook. This will help the Team quickly find specific content to share with Judges.",
+                                "The engineering notebook could include:",
+                                "a. Engineering content that includes the Robot design processes.",
+                                "b. Team information that includes information about the Team and outreach activities.",
+                                "c. A Team plan. This could be a business plan, a fund-raising plan, a strategic plan, a sustainability plan, or a skills development plan.",
+                                "Judges may not need to reference your Team’s engineering notebook. We expect that the higher the quality of information in the engineering portfolio, the less likely judges will need to reference the Team’s notebook."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"Engineering Portfolio",
+                    "table":[
+                        "9.3.1 Overview",
+                        "9.3.2 What is an Engineering Portfolio?",
+                        "9.3.3 Engineering Portfolio Formats",
+                        "9.3.4 Engineering Portfolio Requirements",
+                        "9.3.5 Engineering Portfolio Recommendations",
+                        "9.3.6 Engineering Portfolio Requirements by Award"
+                    ],
+                    "content":[
+
+                    ],
+                    "subsections":[
+                        {
+                            "title":"Overview",
+                            "content":[
+                                "This section describes the requirements for creating the engineering portfolio, including formatting guidelines."
+                            ]
+                        },
+                        {
+                            "title":"What is an Engineering Portfolio?",
+                            "content":[
+                                "An engineering portfolio is a short and concise summary of the content collected within the Team’s engineering notebook.",
+                                "The engineering notebook is a complete documentation of the Team, outreach and fund-raising efforts, Team plans, and the Robot design. The engineering portfolio should include sample sketches, discussions and Team meetings, design evolution, processes, obstacles, goals and plans to learn new skills, and each Team member’s concise thoughts throughout the journey for the season. The engineering portfolio is like the Team’s cover letter or resume. Teams should be careful to include only the first name of Team members in their engineering portfolio."
+                            ]
+                        },
+                        {
+                            "title":"Engineering Portfolio Formats",
+                            "content":[
+                                "Teams may document their summary portfolio with either handwritten or electronic documents. There is no distinction made between handwritten and electronic engineering portfolios during judging; each format is equally acceptable.",
+                                "a) Electronic: Teams may use any electronic programs to create their engineering portfolio. For remote event judging, Teams must create a single file that is a sharable, online, non-editable version (such as a PDF) of their engineering portfolio. For traditional events, Teams must print their engineering portfolio.",
+                                "b) Handwritten: Teams may create a handwritten version but for remote judging events, this is discouraged due to difficulties in scanning into a readable, sharable, online version."
+                            ]
+                        },
+                        {
+                            "title":"Engineering Portfolio Requirements",
+                            "content":[
+                                "a) To be considered for judged awards, a Team must submit an engineering portfolio.",
+                                "b) The total number of pages for an engineering portfolio must not exceed 15 pages, plus a cover sheet.",
+                                "i. Pages must be the equivalent of standard A sized paper (US 8.5 x 11) or Standard A4 sized paper (EU 210 x 297 mm).",
+                                "ii. Fonts used must be a minimum of 10 points.",
+                                "c) The engineering portfolio must not include links to other documents, videos, or any other additional content.",
+                                "i. Please note that judges will not review linked content in the engineering portfolio, including web sites, or videos.",
+                                "d) The Control Award Submission Form is not a part of the engineering portfolio and is not included in the total engineering portfolio page count.",
+                                "A Team number on the top of every page makes it easy for Judges to know who created the engineering portfolio they are reviewing. The Team number on the front page is a required component of the engineering portfolio."
+                            ]
+                        },
+                        {
+                            "title":"Engineering Portfolio Recommendations",
+                            "content":[
+                                "a) We strongly recommend the Team number is at the top of each page.",
+                                "b) The engineering portfolio could include:",
+                                "i. Summary of the engineering content that includes the Robot design processes.",
+                                "ii. Summary of the Team information that includes information about the Team and outreach activities.",
+                                "iii. Summary of the Team plan and information about the Team overall. The Team plan could be a business plan, a fund-raising plan, a strategic plan, a sustainability plan, or a plan for the development of new skills.",
+                                "Teams can use the Self-Assessment sheet (coming soon!) to be sure their engineering portfolio provides answers for each of the requirements for specific awards.",
+                                "It is a good idea to connect the award criteria to specific content in your engineering portfolio!"
+                            ]
+                        },
+                        {
+                            "title":"Engineering Portfolio Requirements by Award",
+                            "content":[
+                                "**Inspire Award**",
+                                "- Team must submit an engineering portfolio. The engineering portfolio must include summary information about the Robot design, information about the Team, and a Team plan. The entire engineering portfolio must be high quality, thoughtful, thorough, concise, and well-organized. The Team should have an engineering notebook available for the judges to review that provides the specific, detailed information to support the information in the portfolio.",
+                                "**Think Award**",
+                                "- Engineering portfolio must have engineering content. The engineering content could include entries describing examples of the underlying science, mathematics, and game strategies in a summary fashion.",
+                                "- The engineering portfolio must provide examples that show the Team has a clear understanding of the engineering design process including an example of lessons learned.",
+                                "- The portfolio could inspire the judges to want to see the specific, detailed engineering content in the engineering notebook.",
+                                "- Portfolio format is less important but enables the judges to understand the Team’s design maturity, organizational capabilities, and overall Team structure.",
+                                "- Portfolio could reference specific experiences and lessons learned but should capture the summary of the status of the Team and their Robot design.",
+                                "- Portfolio could summarize experiences and lessons learned from outreach with concise tables of outcomes.",
+                                "- Portfolio could summarize how they acquired new mentors and/or acquired new knowledge and expertise from their mentors.",
+                                "- Portfolio could contain a summary of overall Team plan.",
+                                "- Portfolio could contain information about the plans to develop skills for Team members.",
+                                "- Portfolio could be organized in a logical manner.",
+                                "**Connect Award**",
+                                "- Team must submit an engineering portfolio.",
+                                "- Portfolio must include a Team plan. The Team plan could the Team’s goals for the development of Team member skills, and the steps the Team has or will take to reach those goals. Other examples of what the plan could include are timelines, outreach to science, engineering, and math communities, and training courses.",
+                                "- Portfolio must include a summary of how they acquired new mentors or acquired new knowledge and expertise from their mentors.",
+                                "**Innovate Award**",
+                                "- Team must submit an engineering portfolio.",
+                                "- The engineering portfolio must include examples of the Team’s engineering content that illustrate how the Team arrived at their design solution.",
+                                "- The portfolio could inspire the judges to want to see the specific, detailed engineering content in the engineering notebook.",
+                                "**Control Award sponsored by Arm, Inc.**",
+                                "- The Team must submit an engineering portfolio. The engineering portfolio must include engineering content that documents the control components.",
+                                "- The Team must submit a control award submission form as a separate document. Teams should identify the control aspects of their Robot that they are most proud of and may not exceed 2 pages.",
+                                "**Motivate Award**",
+                                "- Team must submit an engineering portfolio.",
+                                "- The engineering portfolio must include a Team organization plan, which could describe their future goals and the steps they will take to reach those goals. Other examples of what the plan could include are Team identity, fund-raising goals, sustainability goals, timelines, outreach to non-technical groups, finances, and community service goals.",
+                                "- The Team is an ambassador for FIRST programs.",
+                                "- Team can explain the individual contributions of each Team member, and how these apply to the overall success of the Team.",
+                                "**Design Award**",
+                                "- Team must submit an engineering portfolio that includes examples of Robot CAD images or detailed Robot design drawings.",
+                                "- The portfolio could inspire the judges to want to see the specific, detailed design content and design journey in the engineering notebook."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"Judging Process, Schedule, and Team Preparation",
+                    "table":[
+                        "9.4.1 How Judging Works",
+                        "9.4.2 Judging Schedule",
+                        "9.4.3 Team Preparation",
+                        "9.4.4 Coaches Involvement in Interviews",
+                        "9.4.5 Video Award Submission Guidelines for Compass and Promote Awards"
+                    ],
+                    "content":[
+                        "The schedules at the FIRST Tech Challenge Competitions may vary from event to event. At traditional events, judging interviews are scheduled for before the start of match play. For remote events, judging will take place during a pre-determined window of time. Exact times for both the matches and meeting with judges cannot be given within this manual. All Teams receive the schedule before or during check-in at the Competition, or in advance of their scheduled remote interview."
+                    ],
+                    "subsections":[
+                        {
+                            "title":"How Judging Works",
+                            "content":[
+                                "At FIRST Tech Challenge Competitions, there will be four parts to the judging process: 1. Interview with the judges.",
+                                "a. Teams take part in scheduled, private interviews with a panel of two or more judges.",
+                                "b. Teams are asked to bring their Robot to the judge interview. This is the best chance for Teams to explain and show their Robot design to the judges in a quiet and relaxed environment. For remote events, Teams may show photos of their Robot to the judges as a part of their remote interview.",
+                                "**All Teams, regardless of if they have a Robot or a working Robot, are eligible to receive their judges’ interview and can be considered for all judged awards.**",
+                                "i. Teams who have not built a Robot or have a Robot that has not passed Robot inspection are permitted to participate in judging and are eligible for consideration for all awards.",
+                                "c. The interview will last at least 10 minutes.",
+                                "d. During the first 5 minutes of the interview, Teams can present to the judges, without interruption.",
+                                "i. Teams are not required to prepare a presentation and will not be penalized if they do not have a prepared presentation.",
+                                "ii. Teams will not receive more than 5 minutes for their uninterrupted presentation.",
+                                "iii. Teams may not pre-record their presentation.",
+                                "e. At the five-minute mark, the judges will begin to ask questions of the Team.",
+                                "2. Match observations by judges (traditional events only).",
+                                "a. Judges observe the Robot, student interactions, and the Gracious Professionalism® of the entire Team.",
+                                "3. Judges follow up with additional interviews in the pits during Competition. For remote events, this second interview will be pre-scheduled.",
+                                "4. Evaluation of the engineering portfolio.",
+                                "No awards will be decided based on the judges' interview or engineering portfolio alone. Judges use the guidelines provided in this section to assess each Team.",
+                                "Teams should present their engineering portfolio, their control award submission form, and their judging feedback request form to the judges at the start of their interview unless otherwise directed by the Competition officials. In remote events, the Team coach, as the team admin, is designated to upload these materials to the FTC Scoring System.",
+                                "After the judges review the submitted engineering portfolio, complete the scheduled Team interviews, and evaluate the team and Robot performance on the field, they meet to review their assessments and create a list of top candidates for the various judged awards. Judges may require more discussion with Teams.",
+                                "**9.4.1.1 Feedback to Teams**",
+                                "Teams who wish to receive feedback from judges must submit a completed judging feedback request form (https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/judging-feedback-request-form.pdf).",
+                                "Judges will conduct the Team interview and review the documentation submitted by the Team. After the event, the lead coach/mentor 1 for the Team will receive access to the judging feedback form which has been completed by the event judges.",
+                                "The feedback form is completed by the judges immediately following the formal interview.",
+                                "The feedback form is not used by the judges during their deliberation process.",
+                                "**9.4.1.2 Teams Without a Robot**",
+                                "Teams who have not built a Robot or have a Robot that has not passed Robot inspection are permitted to participate in judging and are eligible for award consideration."
+                            ]
+                        },
+                        {
+                            "title":"Judging Schedule",
+                            "content":[
+                                "The judging interviews take place in a separate area or room away from other Teams as well as the noise of the Competition and pit. Teams follow the schedule that outlines Team interview times and locations. Sometimes, Teams may receive this information in advance, but more often, Teams will receive this information when they check-in on the morning of the event. For remote events, Team coaches will receive the Team’s judging schedule in advance of the event.",
+                                "As much as possible, Teams should familiarize themselves with where and how judging will occur and allow enough time to get there. We expect that all Teams arrive at the judge queuing area five minutes before their scheduled judging interview. This helps us keep the event running on time."
+                            ]
+                        },
+                        {
+                            "title":"Team Preparation",
+                            "content":[
+                                "Teams are encouraged to read and understand the award requirements for each award to assess where they are within an award category and help them establish higher goals. These guidelines are the same ones used by the judges during each Competition, and at the FIRST Tech Challenge world championships. Please see the Award Categories section of this manual for award requirements and look over the Engineering Portfolio Requirements by Award to ensure the Team’s engineering portfolio meets the criteria by award. Teams should attend judging workshops and judging practice days if they are available in their region. Practice makes for a better presentation, and practice in front of others could help a Team identify gaps in their presentation. Judging self-reflection sheets are another tool that Teams can use to prepare for their judging interview.",
+                                "During the Team’s interview, the judges want to know highlights about the Team; what the Team learned during the Competition season; and the experiences that were gained. Team representatives’ abilities to answer the questions or elaborate on Robot design functions or qualities are evaluated during the Team interview."
+                            ]
+                        },
+                        {
+                            "title":"Coaches Involvement in Interviews",
+                            "content":[
+                                "Check with the tournament director to see if mentors and coaches can watch the Team interview. Mentors and coaches may not contribute to the judging interviews. Mentors and coaches should always keep in mind that FIRST Tech Challenge is a student-centered activity. It is about giving the students a unique and stimulating experience in all aspects of the program.",
+                                "**9.4.4.1 Coaches Involvement in Interviews Exceptions**",
+                                "FIRST Tech Challenge will make exceptions for coaches who are needed to translate for students, for coaches of students with different abilities, and other exceptional circumstances. Please let the tournament director know in advance if your Team would like to be considered for an exception"
+                            ]
+                        },
+                        {
+                            "title":"Video Award Submission Guidelines for Compass and Promote Awards",
+                            "content":[
+                                "The submission process for this award may vary by Competition. The compass and promote awards are not offered at all events. Please check with the tournament director for details. Winning videos will be submitted to FIRST and used to promote the higher values of FIRST Tech Challenge. Teams can also send their promote videos directly to FIRST; however, these submissions will not be formally judged. If you would like to send your promote video to FIRST, please email ftcteams@firstinsires.org with the subject line “Promote Award Video”.",
+                                "- The video must be submitted at least one week before Competition day. Instructions for submitting videos may vary from Competition to Competition. Please check with the tournament director for details.",
+                                "- Videos must be submitted in AVI, WMV, MOV or better format. Submission through use of a streaming service such as YouTube is not acceptable. Remember the winning video may be shown on a large screen during the awards ceremony. Teams should use the best resolution available for the final version.",
+                                "- Only one video submission per Team will be considered. Teams may submit new or updated videos at each Competition.",
+                                "- Teams must have permission from the copyright owners for music used in the video and indicate this in their video."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"Award Categories",
+                    "table":[
+                        "9.5.1 Inspire Award",
+                        "9.5.2 Think Award",
+                        "9.5.3 Connect Award",
+                        "9.5.4 Innovate Award sponsored by Raytheon Technologies",
+                        "9.5.5 Control Awawrd by Arm Inc.",
+                        "9.5.6 Motivate Award",
+                        "9.5.7 Design Award",
+                        "9.5.8 Promote Award (Optional)",
+                        "9.5.9 Compass Award (Optional)",
+                        "9.5.10 Judges' Choice Award",
+                        "9.5.11 Winning Alliance Award",
+                        "9.5.12 Finalist Alliance Award"
+                    ],
+                    "content":[
+                        "Each award listed below has a list of non-negotiable requirements. Please note that each award has a set of required criteria. Gracious Professionalism® is listed as the first criteria for every award. This is a mandatory requirement for every FIRST Tech Challenge award. Teams who behave in an ungracious way are not eligible for consideration for any award at the event."
+                    ],
+                    "subsections":[
+                        {
+                            "title":"Inspire Award",
+                            "content":[
+                                "This judged award is given to the Team that best embodies the ‘challenge’ of the FIRST Tech Challenge program. The Team that receives this award is a strong ambassador for FIRST programs and a role model FIRST Team. This Team is a top contender for many other judged awards and is a gracious competitor. The inspire award winner is an inspiration to other Teams, acting with Gracious Professionalism® both on and off the Playing Field. This Team shares their experiences, enthusiasm and knowledge with other Team, sponsors, their community, and the judges. Working as a unit, this Team will have showed success in performing the task of designing and building a Robot.",
+                                "Required criteria for the Inspire Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Team is a strong contender for several other judged awards. The Inspire Award celebrates the strongest qualities of all the judged awards.",
+                                "• The Team is an ambassador for FIRST programs. They demonstrate and document their work in their community.",
+                                "• Team is positive and inclusive, and each Team member contributes to the success of the Team.",
+                                "- Team must submit an engineering portfolio. The engineering portfolio must include engineering content, Team information and a Team plan. The entire engineering portfolio must be high quality, thoughtful, thorough, concise, and well-organized.",
+                                "• Robot design is creative and innovative, and the Robot performs reliably on the field. The Team communicates clearly about their Robot design and strategy to the judges.",
+                                "• Team interview session is professional and engaging.",
+                                "**The judges do not use Dean’s List or the FIRST Innovation Challenge Awards in their consideration of any other FIRST Tech Challenge Awards.**",
+                                "Strongly suggested criteria for the Inspire Award:",
+                                "• The Team should have an engineering notebook available for the judges to review that provides the detailed information to support the information in the portfolio."
+                            ]
+                        },
+                        {
+                            "title":"Think Award",
+                            "content":[
+                                "Removing engineering obstacles through creative thinking.",
+                                "This judged award is given to the Team that best reflects the journey the Team took as they experienced the engineering design process during the build season. The engineering content within the portfolio is the key reference for judges to help identify the most deserving Team. The Team’s engineering content must focus on the design and build stage of the Team’s Robot.",
+                                "Additional detailed information that is helpful for the judges would be in the Team’s engineering notebook and would include descriptions of the underlying science and mathematics of the Robot design and game strategies, the designs, redesigns, successes, and opportunities for improvement. A Team is not a candidate for this award if their portfolio does not include engineering content.",
+                                "Required criteria for the Think Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Engineering portfolio must have engineering content. The engineering content could include entries describing examples of the underlying science, mathematics, and game strategies in a summary fashion.",
+                                "• The engineering portfolio must provide examples that show the Team has a clear understanding of the engineering design process including examples of lessons learned.",
+                                "• The portfolio should inspire the judges to want to see the specific detailed engineering content in the engineering notebook.",
+                                "• Portfolio format is less important but enables the judges to understand the Team’s design maturity, organizational capabilities, and overall Team structure.",
+                                "• Portfolio could reference specific experiences and lessons learned but should capture the summary of the status of the Team and their Robot design.",
+                                "• Portfolio could also summarize experiences and lessons learned from outreach with concise tables of outcomes.",
+                                "Strongly suggested criteria for the Think Award:",
+                                "• Team’s engineering notebook should include specific engineering content to support entries in the engineering portfolio.",
+                                "o Judgesmayasktoseespecificcontentfromtheengineeringnotebookduringthesecond,orpit interview.",
+                                "• Engineering portfolio could summarize how the Team acquired new mentors or acquired new knowledge and expertise from their mentors.",
+                                "• Engineering portfolio could contain summary of overall Team plan.",
+                                "• Engineering portfolio could contain information about the plans to develop skills for Team members."
+                            ]
+                        },
+                        {
+                            "title":"Connect Award",
+                            "content":[
+                                "Connecting the dots between community, FIRST, and the diversity of the engineering world.",
+                                "This judged award is given to the Team that most connects with their local science, technology, engineering, and math (STEM) community. A true FIRST Team is more than a sum of its parts and recognizes that engaging their local STEM community plays an essential part in their success. The recipient of this award is recognized for helping the community understand FIRST, the FIRST Tech Challenge, and the Team itself. The Team that wins the connect award actively seeks and recruits engineers and explores the opportunities available in the world of engineering, science, and technology. This Team has a clear Team plan and has identified steps to achieve their goals.",
+                                "Required criteria for the Connect Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Team must submit an engineering portfolio.",
+                                "• Portfolio must include a Team plan that covers the Team’s goals for the development of Team member skills, and the steps the Team has taken or will take to reach those goals. Examples of what the plan could include are timelines, outreach to science, engineering, and math communities, and training courses.",
+                                "• Portfolio must include a summary of how the Team acquired new mentors or acquired new knowledge and expertise from a mentor. Working with mentors from FIRST’s mentor matching site is an acceptable way to learn from mentors.",
+                                "Strongly suggested criteria for the Connect Award:",
+                                "• Team provides clear examples of developing in person or virtual connections with individuals in the engineering, science, or technology community.",
+                                "• Team actively engages with the engineering community to help them understand FIRST, the FIRST Tech Challenge, and the Team itself."
+                            ]
+                        },
+                        {
+                            "title":"Innovate Award sponsored by Raytheon Technologies",
+                            "content":[
+                                "Bringing great ideas from concept to reality.",
+                                "The Innovate Award celebrates a Team that thinks outside the box and has the ingenuity, creativity, and inventiveness to make their designs come to life. This judged award is given to the Team that has the most innovative and creative Robot design solution to any specific components in the FIRST Tech Challenge game. Elements of this award include elegant design, robustness, and ‘out of the box’ thinking related to design. This award may address the design of the whole Robot or of a sub-assembly attached to the Robot. The creative component must work consistently, but a Robot does not have to work all the time during Matches to be considered for this award. The Team’s engineering portfolio must include a summary of the design of the component or components and the Team’s Robot to be eligible for this award. Entries must describe how the Team arrived at their solution.",
+                                "Required criteria for the Innovate Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Team must submit an engineering portfolio.",
+                                "• The engineering portfolio must include examples of the Team’s engineering content that",
+                                "illustrate how the Team arrived at their design solution.",
+                                "• Robot or Robot sub-assembly must be creative, elegant, and unique in its design.",
+                                "• Creative component must be stable, robust, and work reliably.",
+                                "Strongly suggested criteria for the Innovate Award:",
+                                "• The portfolio should inspire the judges to want to see the specific detailed engineering content in the engineering notebook."
+                            ]
+                        },
+                        {
+                            "title":"Control Award sponsored by Arm Inc.",
+                            "content":[
+                                "Mastering robot intelligence.",
+                                "The Control Award celebrates a Team that uses sensors and software to increase the Robot’s functionality in the field. This award is given to the Team that demonstrates innovative thinking to solve game challenges such as autonomous operation, improving mechanical systems with intelligent control, or using sensors to achieve better results. The control component should work consistently in the field. The Team’s engineering portfolio must contain a summary of the software, sensors, and mechanical control, but would not include copies of the code itself.",
+                                "Required criteria for the Control Award sponsored by Arm, Inc.:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Team must apply for the control award by filling out the control award submission form, located in Appendix E. The Control Award Submission Form should not exceed 2 pages.",
+                                "• The Team must submit an engineering portfolio. The engineering portfolio must include engineering content that documents the control components.",
+                                "• Control components must enhance the functionality of the Robot on the Playing Field. Strongly suggested criteria for the Control Award sponsored by Arm, Inc.:",
+                                "• Advanced software techniques and algorithms are encouraged.",
+                                "• Control components should work reliably.",
+                                "• Additional detailed information can be included in the Team’s engineering notebook.",
+                                "• Learnings from the Team about what they tried and what did not work with regards to sensors, hardware, algorithms, and code",
+                                "The control award is different from other awards because Team must apply for this award. A Team applying for this award must turn in their control award submission form to the judges at the event. This award focuses on a Team’s ability to program a Robot that can reliably and efficiently carry out tasks during Match play, in a way that improves their ability to score during a match.",
+                                "**Documenting the learning from failure – what did not work – and understanding how to improve the Team’s design process is what we are assessing.**",
+                                "The judges should look for:",
+                                "• What sensors and hardware the Team is using on the Robot; what worked, what did not, and why.",
+                                "• What algorithm or code the Team has programmed their Robot with; what worked, what did not, and why.",
+                                "• The judges should pay attention to the program and design process. The design process is more critical than the code itself.",
+                                "Teams must fill out and turn in the control award submission form to be considered for the control award. A control award binder or notebook is not an acceptable submission. Additional control information should be in the engineering notebook.",
+                                "The control award submission may not be longer than 2 pages and may not contain links to additional content or code. Judges are instructed to ignore links to additional content.",
+                                "For remote event types, the control award submission should include a link to a short (less than 2 minute) video of the Robot that highlights the control aspects that they have described in their control award submission form."
+
+                            ]
+                        },
+                        {
+                            "title":"Motivate Award",
+                            "content":[
+                                "Sparking others to embrace the culture of FIRST!",
+                                "This Team embraces the culture of FIRST and clearly shows what it means to be a Team. This judged award celebrates the Team that represents the essence of the FIRST Tech Challenge Competition through Gracious Professionalism and general enthusiasm for the overall philosophy of FIRST and what it means to be a FIRST Tech Challenge Team. This is a Team who makes a collective effort to make FIRST known throughout their school and community, and sparks others to embrace the culture of FIRST.",
+                                "**When doing community outreach, Teams should be prepared to talk about FIRST, and spread awareness of the program**",
+                                "Required criteria for the Motivate Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Teammustsubmitanengineeringportfolio.Theengineeringportfolio must include a Team organization plan, which could describe their future goals and the steps they will take to reach those goals. Examples of what the plan could include are Team identity, fund- raising goals, sustainability goals, timelines, outreach, finances, and community service goals.",
+                                "• The Team is an ambassador for FIRST programs.",
+                                "• Team can explain the individual contributions of each Team member, and how these apply to the overall success of the Team.",
+                                "Strongly suggested criteria for the Motivate Award:",
+                                "• Team takes part in their presentation, and actively engage with the judges.",
+                                "• Team shows a creative approach to materials that market their Team and FIRST.",
+                                "• Team can clearly show the successful recruitment of people who were not already active within the STEM community.",
+                                "• Team could also summarize experiences and lessons learned from outreach."
+                            ]
+                        },
+                        {
+                            "title":"Design Award",
+                            "content":[
+                                "Industrial design at its best.",
+                                "This judged award recognizes design elements of the Robot that are both functional and aesthetic. The design award is presented to Teams that incorporate industrial design elements into their solution. These design elements could simplify the Robot’s appearance by giving it a clean look, be decorative in nature, or otherwise express the creativity of the Team. The Robot should be durable, efficiently designed, and effectively address the game challenge.",
+                                "Required criteria for the Design Award:",
+                                "• Team shows respect and Gracious Professionalism® to everyone they meet at a FIRST Tech Challenge event.",
+                                "• Team must submit an engineering portfolio with an engineering content which could be CAD images or Robot drawings of the Team’s overall design and/or components.",
+                                "• Team also documents and implements strong industrial design principles, striking a balance between form, function, and aesthetics.",
+                                "Strongly suggested criteria for the Design Award:",
+                                "• Robot distinguishes itself from others by its aesthetic and functional design.",
+                                "• Basis for the design is well considered (that is inspiration, function, etc.).",
+                                "• Robot design is effective and consistent with Team plan and strategy.",
+                                "• The engineering portfolio should inspire the judges to want to see the specific detailed design content and design journey in the engineering notebook.",
+                            ]
+                        },
+                        {
+                            "title":"Promote Award (Optional)",
+                            "content":[
+                                "This judged award is optional and may not be given at all Competitions. Your judge advisor will have information about the judging for this award.",
+                                "The promote award is given to the Team that is most successful in creating a compelling video message for the public designed to change our culture and celebrate science, technology, engineering, and math. Teams must submit a one-minute-long public service announcement (PSA) video based on the PSA subject for the season.",
+                                "Team may win the promote award only once at a championship level event and only once at a qualifying level event.",
+                                "PSA Subject for 2021-2022 season:",
+                                "**If there was one thing I would tell my younger self about FIRST, it would be...**",
+                                "Required criteria for the Promote Award:",
+                                "• Video must meet the following criteria:",
+                                "o Video must follow FIRST branding and design standards.",
+                                "o Video cannot be longer than 60 seconds.",
+                                "o Video must be of a high quality, as submissions may be used later to promote FIRST.",
+                                "o Team must have rights to music used in the video.",
+                                "o Music and permissions must be listed in video credits.",
+                                "o Video must have strong production value.",
+                                "o Video must be submitted by the deadline given by the tournament director.",
+                                "• Team must present a thoughtful and impactful video which appeals to the public.",
+                                "• Creativity in interpreting the yearly theme is required.",
+                                "• Follow video award submission guidelines."
+                            ]
+                        },
+                        {
+                            "title":"Compass Award (Optional)",
+                            "content":[
+                                "A beacon and leader in the journey of the FIRST Tech Challenge.",
+                                "This judged award is optional and may not be given at all Competitions. Your judge advisor will have information about the judging for this award.",
+                                "The compass award recognizes an adult coach or mentor who has given outstanding guidance and support to a Team throughout the year and demonstrates to the Team what it means to be a Gracious Professional. The winner of the compass award will be chosen from candidates nominated by FIRST Tech Challenge student Team members, via a 40-60 second video submission. The video must highlight how their mentor has helped them become an inspirational Team. We want to hear what sets the mentor apart.",
+                                "Required criteria for the Compass Award:",
+                                "- Video must meet the following criteria:",
+                                "o Video must follow FIRST branding and design standards.",
+                                "o Video cannot be longer than 60 seconds.",
+                                "o Video must be of a high quality, as submissions may be used later to promote FIRST. o Team must have permission from the copyright owners for music used in the video. o Musicandpermissionsmustbelistedinvideocredits.",
+                                "o Video must be submitted by the deadline given by the tournament director.",
+                                "- Video highlights the mentor’s contribution to the Team and demonstrates what sets the mentor apart.",
+                                "- Follow video award submission guidelines."
+                            ]
+                        },
+                        {
+                            "title":"Judges' Choice Award",
+                            "content":[
+                                "This award is optional and may not be given at all Competitions.",
+                                "During the Competition, the judging panel may meet a Team whose unique efforts, performance, or dynamics merit recognition, but does not fit into any of the existing award categories. To recognize these unique Teams, FIRST offers a customizable Judges Choice Award. The judging panel may select a Team to be honored, as well as the name of the Judges Choice Award. The Judges Choice Award recognizes a Team for their outstanding efforts but does not factor into the advancement criteria."
+                            ]
+                        },
+                        {
+                            "title":"Winning Alliance Award",
+                            "content":[
+                                "This award will be given to the winning Alliance represented in the final Match."
+                            ]
+                        },
+                        {
+                            "title":"Finalist Alliance Award",
+                            "content":[
+                                "This award will be given to the finalist Alliance represented in the final Match."
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -1332,7 +1802,34 @@
                 "For more information on the Dean’s List Award, and to see past FIRST Tech Challenge winners, please visit our website! http://www.firstinspires.org/Robotics/ftc/deans-list"
             ],
             "subsections":[
-                
+                {
+                    "title":"Eligibility",
+                    "content":[
+                        "Every registered FIRST Tech Challenge Team can submit up to two (2) students as FIRST Dean’s List Award Semi-Finalists.",
+                        "- Students must be a sophomore (grade 10) or junior (grade 11) to be eligible for this award.",
+                        "Note: For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for students who are two (2) to three (3) years away from entering college or university. Students that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.",
+                        "- The coach or mentor nominating the student(s) must submit an essay explaining why the student should receive this award. The essay must be 4,000 characters or less."
+                    ]
+                },
+                {
+                    "title":"Criteria",
+                    "content":[
+                        "Criteria for selection of the FIRST Dean's List shall include, but not be limited to a student's:",
+                        "- Demonstrated leadership and commitment to FIRST Core Values",
+                        "- Effectiveness at increasing awareness of FIRST in their school and community",
+                        "- Interest in and passion for a long-term commitment to FIRST",
+                        "- Overall individual contribution to their Team",
+                        "- Technical expertise and passion",
+                        "- Entrepreneurship and creativity",
+                        "- Ability to motivate and lead fellow Team members"
+                    ]
+                },
+                {
+                    "title":"Dean's List Nominations",
+                    "content":[
+                        "There are specific instructions on how to submit Dean’s List Nominations. There are two sets of instructions, The Dean’s List Nomination Guide – US, and the Dean’s List Nomination Guide – International. Please visit our website (https://www.firstinspires.org/robotics/ftc/deans-list) for a copy of the guides, which provides in depth information about the Dean’s List, and step by step visual aids to complete the nominations."
+                    ]
+                }
             ]
         }
     ]
