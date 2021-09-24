@@ -843,7 +843,10 @@
         {
             "title":"The Robot",
             "table":[
-
+                "7.1 Overview",
+                "7.2 Robot Control System",
+                "7.3 Robot Rules",
+                "7.4 Team Scoring Element"
             ],
             "content":[
 
@@ -896,7 +899,9 @@
                     "table":[
                         "7.3.1 General Robot Rules",
                         "7.3.2 Robot Mechanical Parts and Materials Rules",
-                        "7.3.3 Robot Electrical Parts and Materials Rules"
+                        "7.3.3 Robot Electrical Parts and Materials Rules",
+                        "7.3.4 Driver Station Rules",
+                        "7.3.5 Robot Software Rules"
                     ],
                     "content":[
                         "Anyone that has attended a FIRST Tech Challenge Competition knows that Teams think outside the kit-of- parts to create unique and creative Robots. The intent of the Robot construction rules is to create a level playing field and a framework for Teams to build Robots that safely play the annual game challenge. Teams should read all the Robot rules before building their Robot. Teams can also reference our Legal and Illegal Parts List (https://www.firstinspires.org/resource-library/ftc/volunteer-resources) on our website for common legal and illegal Robot parts. Some suppliers’ websites may claim that a part is FIRST Tech Challenge approved. The only official references for the legality of parts and materials are the Game Manual Part 1, the Legal and Illegal Parts List (https://www.firstinspires.org/resource-library/ftc/volunteer-resources), and the Official Game Q&A Forum (https://ftc-qa.firstinspires.org/)."
@@ -1099,15 +1104,15 @@
                                 "Robotics Anderson Powerpole to XT30 Adapter (REV-31-1385) in conjunction with the REV Robotics Resistive Grounding Strap. No other grounding straps or adapters are permitted. For additional details on installation of the grounding strap or adapter, please see the Robot Wiring Guide (https://www.firstinspires.org/resource-library/ftc/robot-building-resources).",
                                 "**<RE16>** Modifying Electronics - Approved electrical and electronic devices may be modified to make them more usable; they may not be modified internally or in any way that affects their safety.",
                                 "Examples of modifications that are allowed:",
-                                "• Shortening or extending wires",
-                                "• Replacing or adding connectors on wires",
-                                "• Shortening motor shafts",
-                                "• Replacing gearboxes and/or changing gears",
+                                "- Shortening or extending wires",
+                                "- Replacing or adding connectors on wires",
+                                "- Shortening motor shafts",
+                                "- Replacing gearboxes and/or changing gears",
                                 "Examples of modifications that are not allowed:",
-                                "• Replacing an H-Bridge in a motor controller",
-                                "• Rewinding a motor",
-                                "• Replacing a fuse with a higher value than specified by the manufacturer",
-                                "• Shorting out a fuse",
+                                "- Replacing an H-Bridge in a motor controller",
+                                "- Rewinding a motor",
+                                "- Replacing a fuse with a higher value than specified by the manufacturer",
+                                "- Shorting out a fuse",
                                 "**<RE17>** Additional Electronics – Electronic devices that are not specifically addressed in the preceding rules are not allowed. A partial list of electronics that are not allowed includes: Arduino boards, Raspberry Pi, relays, and custom circuits."
                             ]
                         },
@@ -1115,26 +1120,26 @@
                             "title":"Driver Station Rules",
                             "content":[
                                 "Teams provide their own Driver Station, and it must comply with the following constraints:",
-                                "<DS01> Driver Station Controller – The Driver Station must consist of no more than one (1) of the following options:",
+                                "**<DS01>** Driver Station Controller – The Driver Station must consist of no more than one (1) of the following options:",
                                 "a. One (1) smartphone Android Device listed in rule <RE07>, or",
                                 "b. One (1) REV Driver Hub.",
-                                "<DS02> Driver Station Controller Touch Screen - The touch display screen of the Driver Station Controller",
+                                "**<DS02>** Driver Station Controller Touch Screen - The touch display screen of the Driver Station Controller",
                                 "must be accessible and visible by field personnel.",
-                                "<DS03> Gamepad – The Driver Station must contain no more than two (2) of the following gamepads in any combination:",
+                                "**<DS03>** Gamepad – The Driver Station must contain no more than two (2) of the following gamepads in any combination:",
                                 "a. Logitech F310 gamepad (Part# 940-00010)",
                                 "b. Xbox 360 Controller for Windows (Part# 52A-00004)",
                                 "c. Sony DualShock 4 Wireless Controller for PS4 (ASIN # B01LWVX2RG) operating in wired mode only (i.e., connected through USB 2.0 Type A to Type B Micro cable with Bluetooth turned off)",
                                 "d. Etpark Wired Controller for PS4 (ASIN # B07NYVK9BT).",
-                                "<DS04> USB Hub – No more than one (1) external battery powered or unpowered USB hub is allowed.",
-                                "<DS05> Charging the Driver Station Controller at the Playing Field – One (1) optional COTS USB external battery is allowed to charge the Driver Station Controller. The USB battery connects to the Driver Station Controller only by these methods:",
+                                "**<DS04>** USB Hub – No more than one (1) external battery powered or unpowered USB hub is allowed.",
+                                "**<DS05>** Charging the Driver Station Controller at the Playing Field – One (1) optional COTS USB external battery is allowed to charge the Driver Station Controller. The USB battery connects to the Driver Station Controller only by these methods:",
                                 "a. Through the built-in USB-C port on the REV Driver Hub.",
                                 "b. Through a USB Hub connected to the smartphone Android Device.",
-                                "<DS06> Smartphone Android Device (if used) Additional Constraints –",
+                                "**<DS06>** Smartphone Android Device (if used) Additional Constraints –",
                                 "a. One (1) OTG Cable is required",
                                 "b. The Driver Station smartphone Android Device USB interface may only connect to either:",
                                 "i. A Mini USB to OTG (On-The-Go) cable or combination of cables connected to a USB Hub, or",
                                 "ii. One (1) gamepad, USB cable, and an OTG Micro Adapter.",
-                                "<DS07> Driver Station Carrier – The Driver Station carrier’s intended use is for organizing and transporting Driver Station components. Driver Station carrier constraints are as follows:",
+                                "**<DS07>** Driver Station Carrier – The Driver Station carrier’s intended use is for organizing and transporting Driver Station components. Driver Station carrier constraints are as follows:",
                                 "a. Driver Station carrier may not damage Competition provided equipment, the Playing Field, or the venue floor.",
                                 "b. Decorative electronics (including LEDs) are allowed, and they must be powered by a 12V or lower COTS DC battery. The smartphone Android Device and REV Driver Hub may not power or control decorative electronics.",
                                 "c. Non-decorative electronics are not allowed.",
@@ -1147,45 +1152,187 @@
                             "title":"Robot Software Rules",
                             "content":[
                                 "For software resources and troubleshooting guides, please visit our website: https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources.",
-                                "<RS01> Android Device Names - Each Team MUST “name” their Robot Controller Android device Wi-Fi name with their official FIRST Tech Challenge Team number and –RC (for example, “12345-RC”). Each Team MUST “name” their Driver Station Android device with their official Team number and –DS (for example, 12345-DS). Teams with more than one Driver Station or Robot Controller Android Device must name these devices with the Team number followed by a hyphen then a letter designation beginning with “A” (for example, “12345-A-RC”, “12345-B-RC”).",
-                                "<RS02> Recommended Programming Tools – Java is the recommended programming language for the Robot Controller. The following tools are recommended for use in the FIRST Tech Challenge:",
+                                "**<RS01>** Android Device Names - Each Team MUST “name” their Robot Controller Android device Wi-Fi name with their official FIRST Tech Challenge Team number and –RC (for example, “12345-RC”). Each Team MUST “name” their Driver Station Android device with their official Team number and –DS (for example, 12345-DS). Teams with more than one Driver Station or Robot Controller Android Device must name these devices with the Team number followed by a hyphen then a letter designation beginning with “A” (for example, “12345-A-RC”, “12345-B-RC”).",
+                                "**<RS02>** Recommended Programming Tools – Java is the recommended programming language for the Robot Controller. The following tools are recommended for use in the FIRST Tech Challenge:",
                                 "a. FTC Blocks Development tool – a visual, blocks-based programming tool hosted by the Robot Controller.",
                                 "b. FTC OnBot Java Programming tool – a text-based integrated development environment hosted by the Robot Controller.",
                                 "c. Android Studio – a text-based integrated development environment.",
                                 "d. Java Native Interface (JNI) & Android Native Development Kit (NDK) – Teams can incorporate native code libraries into their apps using the JNI framework and the Android NDK.",
-                                "<RS03> Allowed Software System Versions - The following table lists the Android Devices, minimum Android versions, minimum operating system and firmware versions, and minimum FTC software versions allowed per device.",
+                                "**<RS03>** Allowed Software System Versions - The following table lists the Android Devices, minimum Android versions, minimum operating system and firmware versions, and minimum FTC software versions allowed per device.",
                                 "IMG:https://i.imgur.com/YlATe1N.png",
                                 "**IMPORTANT**: Rules <RS02> or <RS03> do not require that Teams upgrade to the latest version of the software. A mandatory upgrade (announced by FIRST) would only be required if FIRST determined there was a critical software fix that must be adopted by Teams. Teams must install the upgrade before the time of Competition. Additionally, beta versions of the software are allowed at official tournaments. Mandatory upgrades will be communicated in the following ways:",
                                 "• Via Team Blast (http://firstinspires.org/resource-library/ftc/team-email-blasts) – The mandatory upgrade and version number will be communicated to Teams on the Team Blast, which will also show the date the required upgrade must be made.",
                                 "• Online – the minimally required software will be listed on our Technology Resources (http://firstinspires.org/resource-library/ftc/technology-information-and-resources) page, with the date Teams are required to make the mandatory software upgrade.",
                                 "• Forum – The minimally required software will be listed in the Technology Forum (http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology&__hstc=212927755.8c47fe5c332447859bfe583000c1f507.1466607298723.1466607298723.1466607298723.1&__hssc=212927755.4.1466607298724&__hsfp=2853653097) page, with the date Teams are required to make the mandatory software upgrade.",
                                 "Templates for all programming choices are available through the links located at http://www.firstinspires.org/node/5181.",
-                                "<RS04> Autonomous to Driver-Controlled Transition - Teams that expect to operate their Robot during the Autonomous period must demonstrate during Field Inspection the Driver Station switches the Robot Controller between Autonomous mode and Driver-Controlled mode.",
-                                "<RS05> Robot Controller App - The Robot Controller smartphone Android Device (if used) must have a designated “FTC Robot Controller” app that is the default application for the REV Expansion Hub. The Robot Controller app must not be installed on the Driver Station Android Device.",
-                                "<RS06> Driver Station App – Teams must install the official “FTC Driver Station” app onto their Driver Station Android Device or REV Driver Hub and use this app to control their Robot during a Match. The Driver Station FTC software version number must match the version number of the Robot Controller app. The Driver Station App must not be installed on the Robot Controller Android Device.",
+                                "**<RS04>** Autonomous to Driver-Controlled Transition - Teams that expect to operate their Robot during the Autonomous period must demonstrate during Field Inspection the Driver Station switches the Robot Controller between Autonomous mode and Driver-Controlled mode.",
+                                "**<RS05>** Robot Controller App - The Robot Controller smartphone Android Device (if used) must have a designated “FTC Robot Controller” app that is the default application for the REV Expansion Hub. The Robot Controller app must not be installed on the Driver Station Android Device.",
+                                "**<RS06>** Driver Station App – Teams must install the official “FTC Driver Station” app onto their Driver Station Android Device or REV Driver Hub and use this app to control their Robot during a Match. The Driver Station FTC software version number must match the version number of the Robot Controller app. The Driver Station App must not be installed on the Robot Controller Android Device.",
                                 "**IMPORTANT**: Rules <RS05> or <RS06> may require initial installation of the software, or updates throughout the season. Teams receiving the Driver Hub or Control Hub for the first time should install the most recent version of the software.",
                                 "For initial installation or to install the most current version the software, please visit the following link: https://docs.revrobotics.com/control-hub/managing-the-control-system/rev-hardware-client",
                                 "If updates to the SDK software are required, Teams will be notified in the following ways:",
                                 "- Via Team Blast (http://firstinspires.org/resource-library/ftc/team-email-blasts) – The mandatory upgrade and version number will be communicated to Teams on the Team Blast, which will also show the date the required upgrade must be made.",
                                 "- Online – the minimally required software will be listed on our Technology Resources (http://firstinspires.org/resource-library/ftc/technology-information-and-resources) page, with the date Teams are required to make the mandatory software upgrade.",
                                 "- Forum – The minimally required software will be listed in the Technology Forum (http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology&__hstc=212927755.8c47fe5c332447859bfe583000c1f507.1466607298723.1466607298723.1466607298723.1&__hssc=212927755.4.1466607298724&__hsfp=2853653097) page, with the date Teams are required to make the mandatory software upgrade.",
-                                "<RS07> Android Device, REV Driver Hub, and REV Control Hub Operating System Settings - The Robot Controller and Driver Station must be set to:",
+                                "**<RS07>** Android Device, REV Driver Hub, and REV Control Hub Operating System Settings - The Robot Controller and Driver Station must be set to:",
                                 "a. Airplane mode must be turned on (does not apply to the REV Control Hub and REV Driver Hub).",
                                 "b. Bluetooth must be turned off.",
                                 "c. Wi-Fi must be turned on.",
                                 "d. REV Control Hub password must be different than the factory default value of “password.”",
-                                "<RS08> Software Modification –",
+                                "**<RS08>** Software Modification –",
                                 "a. Teams are not allowed to modify the FIRST Tech Challenge Driver Station app in any fashion.",
                                 "b. Teams are required to use the FIRST Robot Controller SDK, and are not allowed to remove, replace, or modify the portions of the SDK which are distributed as binary .AAR files.",
                                 "The intent of this rule is for Teams to download the official version of the SDK from FIRST and make modifications to add Team created code.",
                                 "Reengineered, reverse engineered, or modified versions of the official FIRST SDK are not allowed.",
-                                "<RS09> Driver Station Communication - Communication between the Robot and Driver Station is only allowed via the Robot Controller and Driver Station applications.",
+                                "**<RS09>** Driver Station Communication - Communication between the Robot and Driver Station is only allowed via the Robot Controller and Driver Station applications.",
                                 "Communication between the Robot Controller and the Driver Station is limited to the unmodified mechanisms provided by the official FIRST Tech Challenge (FTC) software, which consists of the official FTC Software Development Kit (SDK), the FTC Robot Controller app, and the FTC Driver Station app. Teams are not permitted to stream audio, video or other data using third-party software or modified versions of the FTC software. Teams may only use the unmodified telemetry feature included with the FTC software to transfer additional data between the Robot Controller and the Driver Station. Software that is preinstalled by an approved smartphone’s manufacturer and cannot be disabled is exempt from this constraint.",
                                 "During a Match, a Team’s Robot Controller and a Team’s Driver Station are not allowed to be connected wirelessly to any other device besides each other."
                             ]
                         }
                     ]
+                },
+                {
+                    "title":"Team Scoring Element",
+                    "table":[
+
+                    ],
+                    "content":[
+                        "The Team Scoring Element is a Team designed and manufactured scoring element that will be used in the Freight FrenzySM game. The Team Scoring Element must pass inspection before it allowed to be used in a Match.",
+                        "The Team Scoring Element for Freight FrenzySM is called the Team Shipping Element.",
+                        "**<TE01>** Material Constraints - The Team Scoring Element is subject to the Robot Mechanical Parts and Materials Rules in section 7.3.2.",
+                        "**<TE02>** Size Constraints - The maximum size of the Team Scoring Element is 4 inches (10.16 cm) by 4 inches (10.16 cm) by 8 inches (20.32 cm). The minimum size of the Team Scoring Element is 3 inches (7.62 cm) by 3 inches (7.62 cm) by 4 inches (10.16 cm).",
+                        "**<TE03>** Team Number - Team Scoring Elements must be labeled with their Team number (numerals only, for example “12345”) The letters must be legible when viewed from a distance of 12 inches (30.48 cm) away. The Team number needs to appear only once on the Team Scoring Element.",
+                        "**<TE04>** Illegal Parts - The following types of mechanisms and parts are not allowed:", 
+                        "a. Electronics.",
+                        "b. Any other part or material that violates Robot construction rules outlined in section 7.3.",
+                        "c. COTS game elements used in the current season’s game.",
+                        "**<TE05>** COTS Scoring Elements – The Team Scoring Element may not resemble any current season’s game COTS scoring elements."
+                    ],
+                    "subsections":[
+
+                    ]
                 }
+            ]
+        },
+        {
+            "title":"Robot Inspection",
+            "table":[
+                "8.1 Overview",
+                "8.2 Description",
+                "8.3 Definitions",
+                "8.4 Inspection Rules"
+            ],
+            "content":[
+
+            ],
+            "subsections":[
+                {
+                    "title":"Overview",
+                    "table":[
+
+                    ],
+                    "content":[
+                        "This section describes Robot Inspection for the FIRST Tech Challenge Competition. It also lists the inspection definitions and inspection rules."
+                    ],
+                    "subsections":[
+
+                    ]
+                },
+                {
+                    "title":"Description",
+                    "table":[
+                        "8.2.1 Team Self-Inspection"
+                    ],
+                    "content":[
+                        "The FIRST Tech Challenge Robot will be required to pass Robot and Field inspections before being cleared to compete. These inspections will ensure that all Robot rules and regulations are met. Initial inspections will take place during Team check-in/practice time. The official “Robot Inspection Checklists” are in Appendices B and C."
+                    ],
+                    "subsections":[
+                        {
+                            "title":"Team Self-Inspection",
+                            "content":[
+                                "Teams are highly recommended to conduct a self-inspection of their Robot. Teams should go through each checklist at least a week before the Competition to make sure their Robot is made up of legal parts."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"Definitions",
+                    "table":[
+
+                    ],
+                    "content":[
+                        "Robot Initialization Routine – A set of programming instructions that runs after Init is pressed on the Driver Station, but before Start for both Driver-Controlled and Autonomous periods.",
+                        "Robot Sizing Tool – A sturdily constructed device with the interior dimensions: 18 inches (45.72 cm) wide by 18 inches (45.72 cm) long by 18 inches (45.72 cm) high. The Sizing Tool is used for Robot Inspection as outlined in section 7.3.1."
+                    ],
+                    "subsections":[
+
+                    ]
+                },
+                {
+                    "title":"Inspection Rules",
+                    "table":[
+
+                    ],
+                    "content":[
+                        "<I01> Inspection - Every Robot is required to pass a full inspection before being cleared to compete. This inspection ensures that all FIRST Tech Challenge Robot rules are met.",
+                        "All Robot configurations must be inspected before being used in Competition.",
+                        "a. If significant changes are made to a Robot after passing initial inspection, it must be re-inspected",
+                        "before it can compete.",
+                        "b. Referees or inspectors may request the re-inspection of a Robot. The Robot cannot participate in a Match until it passes re-inspection. Refusal to submit to re-inspection will result in Team disqualification from the Competition.",
+                        "c. A Robot may be rejected at inspection if the lead inspector considers it unsafe.",
+                        "<I02> Practice Matches - FIRST Tech Challenge Teams must submit their Robot for inspection before participating in Practice Matches., A Robot may be allowed to participate in Practice Matches before passing inspection if allowed by the lead robot inspector.",
+                        "<I03> Qualification Matches - The Team’s Robot must pass all inspections before participating in Qualification Matches. Refusal to follow any Robot design, construction rule, or programming rules may result in disqualification of the Team at a FIRST Tech Challenge Competition.",
+                        "<I04> Re-Inspection – Physical changes to a Robot that improve performance or add capability must pass re- inspection prior to being eligible to play in the next Match. <I04> Safety - It is the inspector’s responsibility to evaluate Robots to ensure each Robot is designed to operate safely. Section 7 of this manual, and Game Manual Part 2, section 4.6.1 outlines the safety rules and limits that apply to the design and construction of all Robots.",
+                        "<I05> Passing Inspection - Robot inspection is a Pass or Fail process. A Robot has passed inspection when all requirements listed on the official FIRST Tech Challenge “Robot and Field Inspection” are successfully met and recorded as passed by an inspector.",
+                        "<I06> All Mechanisms are Inspected - For Inspection, the Robot must be presented with all mechanisms (including all parts of each, configurations, and decorations that will be used on the Robot during the Competition. Robots are allowed to play Matches with a subset of the mechanisms that were present during inspection. Only mechanisms that were present during inspection may be added, removed, or reconfigured between Matches. The Robot should be assembled in a typical configuration used for Matches play when reporting for inspection.",
+                        "a. Robot and all mechanisms must be inspected in every starting configuration.",
+                        "b. If mechanisms are swapped out between Matches, the reconfigured Robot must still meet all Robot and",
+                        "inspection rules.",
+                        "c. The total of all electronics (motors, servos, Android devices, etc.) used to build all mechanisms and base Robot, whether they are used on the Robot at the same time or not, may not exceed the constraints specified in the Robot rules.",
+                        "<I07> Wheel or Tread Playing Field Damage Test - Robot inspectors have the authority to ask that a Team test their wheels or treads that they feel might cause damage to the Playing Field. Not every tread or wheel can be evaluated and posted as a legal or illegal part. Therefore, the tread test is a quick way to find out if a Team’s wheels or treads are Competition legal.",
+                        "The robot inspector should place the Robot on top of a field tile and against an immovable surface (wall) and run the wheels at full power for 15 seconds. If there is any physical damage to the floor tile, the wheels will not be allowed. Discoloration or black marks alone are not considered field damage. The test must be made with the Robot at the weight it will be at during the Competition since this will affect the degree of damage."
+                    ],
+                    "subsections":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Judging and Award Criteria",
+            "table":[
+                "9.1 Overview",
+                "9.2 Engineering Notebook",
+                "9.3 Engineering Portfolio",
+                "9.4 Judging Process, Schedule, and Team Preparation",
+                "9.5 Award Categories"
+            ],
+            "content":[
+
+            ],
+            "subsections":[
+
+            ]
+        },
+        {
+            "title":"Dean's List Award",
+            "table":[
+                "10.1 Eligibility",
+                "10.2 Criteria",
+                "10.3 Dean's List Nominations"
+            ],
+            "content":[
+                "In an effort to recognize the leadership and dedication of FIRST’s most outstanding secondary school students, the Kamen family sponsors an award for selected 10th and 11th grade students known as the FIRST Robotics Competition and FIRST Tech Challenge Dean’s List.",
+                "Similar to the very prestigious National Merit Scholarship Award winners, there are three (3) “categories” of FIRST Dean’s List Award students:",
+                "1. **FIRST Dean’s List Semi-finalists** – comprised of the two (2) students in their 10th or 11th grade school year nominated by each Team.",
+                "2. **FIRST Dean’s List Finalists** – comprised of the students (2, 3, or 4, depending on the region) selected at each Regional Championship.",
+                "3. **FIRST Dean’s List Winners** – comprised of the ten (10) FIRST Robotics Competition and ten (10) FIRST Tech Challenge students selected from the applicable FIRST Dean’s List Finalists at the FIRST Championship.",
+                "The students who earn FIRST Dean’s List Award status as a Semi-finalists, Finalist or Winner, are great examples of student leaders who have led their Teams and communities to increased awareness for FIRST and its mission. These students have also achieved personal technical expertise and accomplishment. It is FIRST’s that these individuals will continue, post-award, as great leaders, student alumni, and advocates of FIRST.",
+                "Prestigious colleges have expressed great interest in meeting FIRST Dean’s List’s Award winners and FIRST hopes that each Team will take advantage of the opportunity to nominate the most qualified students as FIRST Dean’s List Nominees!",
+                "For more information on the Dean’s List Award, and to see past FIRST Tech Challenge winners, please visit our website! http://www.firstinspires.org/Robotics/ftc/deans-list"
+            ],
+            "subsections":[
+                
             ]
         }
     ]
