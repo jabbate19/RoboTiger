@@ -1,24 +1,8 @@
 {
     "last_updated":"09-23-2021",
-    "table":[
-        "1.0 Introduction",
-        "2.0 Gracius Professionalism®",
-        "3.0 The Competition - Definitions and Rules",
-        "4.0 Competition Day Outline",
-        "5.0 Calculating Scores and Ranking",
-        "6.0 Advancement Criteria",
-        "7.0 The Robot",
-        "8.0 Robot Inspection",
-        "9.0 Judging and Award Criteria",
-        "10.0 Dean's List Award",
-        "Appendix Not Available, Please Go To https://www.firstinspires.org"
-    ],
     "content":[
         {
             "title":"Introduction",
-            "table":[
-                "1.0 Introduction"
-            ],
             "content":[
                 "**What is FIRST Tech Challenge?**",
                 "FIRST® Tech Challenge is a student-centered program that focuses on giving students a unique and stimulating experience. Each year, teams engage in a new game where they design, build, test, and program autonomous and driver operated robots that must perform a series of tasks. To learn more about FIRST® Tech Challenge and other FIRST® Programs, visit www.firstinspires.org."
@@ -29,9 +13,6 @@
         },
         {
             "title":"Gracious Professionalism®",
-            "table":[
-                "2.0 Gracious Professionalism"
-            ],
             "content":[
                 "FIRST® uses this term to describe our programs’ intent.",
                 "Gracious Professionalism® is a way of doing things that encourages high-quality work, emphasizes the value of others, and respects individuals and the community.",
@@ -43,23 +24,12 @@
         },
         {
             "title":"The Competition - Definitions and Rules",
-            "table":[
-                "3.1 Overview",
-                "3.2 Eligibility to Compete in Official FIRST Tech Challenge Competitions",
-                "3.3 Competition Types",
-                "3.4 Competition Definitions",
-                "3.5 Competition Rules"
-            ],
             "content":[
                 
             ],
             "subsections":[
                 {
                     "title":"Overview",
-                    "table":[
-                        "3.1.1 Traditional Events",
-                        "3.1.2 Remote Events"
-                    ],
                     "content":[
                         "Students that engage in the FIRST Tech Challenge program develop Science, Technology, Engineering, and Math (STEM) skills and practice engineering principles while realizing the value of hard work, innovation, and sharing ideas. Competitions are exciting sporting events with Robot Matches, judging interviews, and Teams and Robot performance awards. This section provides critical information that will help Teams have a fun and successful Competition day.",
                         "There are two types of Competition formats a Team might experience this season; traditional events and remote events. This manual describes traditional events; however, some Teams may switch between formats depending on social distancing rules within their state/region. Below are descriptions of both formats."
@@ -81,11 +51,6 @@
                 },
                 {
                     "title":"Eligibility to Compete in Official FIRST Tech Challenge Competitions",
-                    "table":[
-                        "3.2.1 North America Team Registration",
-                        "3.2.2 Remote Events",
-                        "3.2.3 Youth Team Member Registration"
-                    ],
                     "content":[
 
                     ],
@@ -115,14 +80,6 @@
                 },
                 {
                     "title":"Competition Types",
-                    "table":[
-                        "3.3.1 Scrimmage",
-                        "3.3.2 League Meets",
-                        "3.3.3 Qualifying Tournaments and League Tournaments",
-                        "3.3.4 Super Qualifying Tournaments",
-                        "3.3.5 Regional Championship Tournaments",
-                        "3.3.6 World Championship"
-                    ],
                     "content":[
                         "There are several types of Competitions that Teams and other organizers hold throughout the FIRST Tech Challenge season and off-season. Competition types are listed in the following section."
                     ],
@@ -167,6 +124,9 @@
                 },
                 {
                     "title":"Competition Definitions",
+                    "table":[
+                        "3.4 Competition Definitions"
+                    ],
                     "content":[
                         "**Alliance** – Each FIRST Tech Challenge Match consists of two, two-Team Alliances. These two Teams compete against an opposing Alliance (also made up of two Teams) to complete the game challenge and to earn the highest score. At Competitions with more than 20 Teams, the semi-final and final Match Alliances consist of three Teams each. However, only two of those Teams compete during any one Match.",
                         "**Alliance Captain** – The student representative from an Alliance’s highest ranked Team chosen to represent an Alliance during Alliance Selection and for the semi-final and final Elimination Matches. The entire Team is also called the Alliance Captain.",
@@ -193,12 +153,15 @@
                         "TBP2: For Teams that compete at a traditional Competition, each Team receives their Alliance’s End Game specific task score for a Qualification Match as TBP2. Total TBP2 is the sum of the TBP2s of all non-Surrogate Qualification Matches that a Team plays in a Competition.",
                         "Please see section 5.0 for further explanation for how this is used to determine a Team’s ranking.",
                         "**Tournament** – A Tournament is an event that advances Teams to the next level of Competition within a state/region, or to the world championship. For many Teams, a Tournament is their season culminating event."
+                    ],
+                    "subsections":[
+
                     ]
                 },
                 {
                     "title":"Competition Rules",
                     "content":[
-
+                        
                     ],
                     "subsections":[
                         {
@@ -409,24 +372,6 @@
         },
         {
             "title":"Competition Day Outline",
-            "table":[
-                "4.0 Competition Day Outline",
-                "4.1 Competition Schedule",
-                "4.2 Team Check-In",
-                "4.3 Robot and Field Inspection",
-                "4.4 Judges' Interviews",
-                "4.5 Drivers' Meeting",
-                "4.6 Practice Time",
-                "4.7 Opening Ceremony",
-                "4.8 Qualification Matches",
-                "4.9 Alliance Selection",
-                "4.10 Elimination Matches",
-                "4.11 Awards and Closing Ceremony",
-                "4.12 Team Spirit & Styling",
-                "4.13 Banners and Flags",
-                "4.14 Spectators and Etiquette",
-                "4.15 Scouting"
-            ],
             "content":[
                 "FIRST Tech Challenge Competitions pack many activities into one day. The main events for Competitions (qualifying Tournament, league Tournament, regional championship Tournament, world championship) are as follows:",
                 "1. Team check-in",
@@ -447,9 +392,6 @@
             "subsections":[
                 {
                     "title":"Competition Schedule",
-                    "table":[
-
-                    ],
                     "content":[
                         "Competition schedules will be available through the tournament director before or at the Competition. Qualification Match schedules are created on Competition day after all Teams have checked-in and have passed all inspections."
                     ],
@@ -459,11 +401,6 @@
                 },
                 {
                     "title":"Team Check-In",
-                    "table":[
-                        "4.2.1 Consent and Release Forms",
-                        "4.2.2 Team Roster",
-                        "4.2.3 Team Check-In Packets"
-                    ],
                     "content":[
 
                     ],
@@ -490,9 +427,6 @@
                 },
                 {
                     "title":"Robot and Field Inspection",
-                    "table":[
-
-                    ],
                     "content":[
                         "FIRST Tech Challenge Robots are required to pass Robot and field inspections before being allowed to compete. These inspections ensure that all Robot rules are met. A copy of the official FIRST Tech Challenge “Robot Inspection Sheet” and “Field Inspection Sheet” are found in Appendices A and B of this manual. FIRST encourages Teams to use the Robot Inspection Sheet” as a guide to pre-inspect their Robot prior to attending a Tournament."
                     ],
@@ -502,9 +436,6 @@
                 },
                 {
                     "title":"Judges' Interviews",
-                    "table":[
-
-                    ],
                     "content":[
                         "At FIRST Tech Challenge Competitions, there are three parts to the judging process: 1) interview with judges; 2) evaluation of performance during the Tournament, and 3) evaluation of the engineering portfolio. Each Team will have a ten to fifteen minute “fact-finding” interview with a panel of two or three judges. At the start of the interview, Teams will have a maximum of 5 minutes to present to the judges. After the Team’s five-minute presentation, the judges will have the opportunity to ask questions about the Team, the Robot, outreach efforts, etc.",
                         "The judges’ interviews take place before any Qualification Matches so the entire Team may be interviewed. When Teams arrive at the Tournament, the interview schedule should be included in the registration materials. Teams must know when they will be interviewed and arrive to the interview room early. Each Team should have at least two student Team representatives and the Robot available; the entire Team is encouraged to join in. Mentors (no more than two) are welcome to watch the judges’ interview at most Tournaments but cannot take part in the interview.",
@@ -516,9 +447,6 @@
                 },
                 {
                     "title":"Drivers' Meeting",
-                    "table":[
-
-                    ],
                     "content":[
                         "The drivers’ meeting takes place before the start of Qualification Matches and is a time when the Drive Team meets with the referees. During this time, the head referee gives a brief outline of what is expected of Teams. They will provide venue specific information, such as queuing paths, and explains any signals and commands referees will give during Matches."
                     ],
@@ -528,9 +456,6 @@
                 },
                 {
                     "title":"Practice Time",
-                    "table":[
-
-                    ],
                     "content":[
                         "At some Competitions, practice fields are available for Teams to practice throughout the Competition. Practice time is offered on a first come, first-served basis. Teams should check with the tournament director if practice time will be allowed on Competition day."
                     ],
@@ -540,9 +465,6 @@
                 },
                 {
                     "title":"Opening Ceremony",
-                    "table":[
-
-                    ],
                     "content":[
                         "The opening ceremony is the official kickoff of the Competition for the Teams, volunteers, and spectators. During the opening ceremony, a Competition official or the emcee will welcome the Teams, introduce dignitaries and other special guests, and introduce the judges and the referees. Then the game will be described (usually with a video) and immediately after, the Qualification Matches take place.",
                         "Teams that are scheduled in the first several Qualification Matches will be asked by volunteers to line up before the opening ceremonies. The Qualification Match schedule will be available before the start of opening ceremony. It is the Team’s responsibility to check the schedule and make sure they are on time for their Matches."
@@ -553,9 +475,6 @@
                 },
                 {
                     "title":"Qualification Matches",
-                    "table":[
-
-                    ],
                     "content":[
                         "Teams are randomly assigned to Qualification Matches and Alliances. The Qualification Match schedule is available before opening ceremonies on the day of the Competition. This schedule shows Alliance partners, Match pairings, and the Alliance’s color (red or blue). These Matches start immediately after the opening ceremonies and follow the Qualification Match schedule. The queue volunteer crew works with Teams throughout the day maintain the Qualification Match schedule. Teams must pay attention to the Match schedule and listen for announcements throughout the day. Teams need to know when they will compete, find out the number of the last Match before lunch, and find out which Match is the last Match of the Competition day."
                     ],
@@ -565,9 +484,6 @@
                 },
                 {
                     "title":"Alliance Selection",
-                    "table":[
-
-                    ],
                     "content":[
                         "The number of Teams in the Elimination Matches is based on the number of Teams in the Competition. If there are 21 or more Teams in the Competition, the Elimination Matches consist of Alliances of 3 Teams each. If there are 20 Teams or less, then the Alliances consist of 2 Teams each. There are four (4) Alliances that will compete in the Elimination Matches.",
                         "The Alliance Selection consists of several rounds of selections so all Alliance Captains form Elimination Match Alliances. These Alliances participate in a ladder-type Competition to decide the Competition’s winning Alliance. The Alliance Selection is as follows:",
@@ -584,9 +500,6 @@
                 },
                 {
                     "title":"Elimination Matches",
-                    "table":[
-
-                    ],
                     "content":[
                         "The Elimination Matches are when the Alliances compete to decide who the winning Alliance is. The Matches are played in a seeded format where the #1 seed goes up against the #4 seed, and the #2 seed goes up against the # 3 seed. Alliance colors are assigned as follows:",
                         "- Semi Finals",
@@ -607,9 +520,6 @@
                 },
                 {
                     "title":"Awards and Closing Ceremony",
-                    "table":[
-
-                    ],
                     "content":[
                         "The awards and closing ceremony celebrate the Teams and their accomplishments throughout the Competition, as well as the volunteers who helped make the Competition possible. At the awards and closing ceremony, the finalists and winners of each award are announced."
                     ],
@@ -619,9 +529,6 @@
                 },
                 {
                     "title":"Team Spirit & Styling",
-                    "table":[
-
-                    ],
                     "content":[
                         "Competing as a Team is exciting as well as rewarding. Part of the fun and reward of being a Team member is the way the Team styles itself with Team t-shirts, trading buttons, hats, cheers, and costumes.",
                         "When deciding on a Team name or acronym, consider how to work a theme around it to make the Team more fun and recognizable. Refer to the marketing and outreach section of the website for information about FIRST and FIRST Tech Challenge logo use requirements: https://www.firstinspires.org/brand"
@@ -632,9 +539,6 @@
                 },
                 {
                     "title":"Banners and Flags",
-                    "table":[
-
-                    ],
                     "content":[
                         "Sponsors provide FIRST with banners to display in specified areas as a way of thanking them for their generosity. We encourage Teams to bring Team flags or sponsor banners, but we ask that you adhere to the following:",
                         "- Do not use banners or flags to section off seating. Saving group seats is not allowed.",
@@ -647,9 +551,6 @@
                 },
                 {
                     "title":"Spectators and Etiquette",
-                    "table":[
-
-                    ],
                     "content":[
                         "Teams are allowed to have two (2) student drivers and one (1) coach at the Playing Field during their scheduled Matches. Spectators are not allowed in the designated Competition Area. Some Competitions may provide media passes for one additional Team member to gain access to a designated “media area”. Access to this area is only allowed with a media pass and only while the media representative’s Team is on the Playing Field. Spectators blocking the sidelines or accessing the media area without a pass will be asked to move. Repeated violations of this rule are considered egregious behavior."
                     ],
@@ -659,9 +560,6 @@
                 },
                 {
                     "title":"Scouting",
-                    "table":[
-
-                    ],
                     "content":[
                         "During the Qualification Matches, the scoring system selects each Team’s ally and opponents for each Match. In Elimination Matches, top ranking Teams can choose their own Alliance partners. Teams should select Alliance partners with abilities that complement their own strengths. Scouting during the Qualification Matches is a good way to learn the abilities and limits of the Teams and Robots competing at the Competition.",
                         "The following scouting approach has been provided by FIRST Robotics Competition Team #365, the Miracle Workerz.",
@@ -683,6 +581,7 @@
         {
             "title":"Calculating Scores and Ranking",
             "table":[
+                "5.0 Calculating Scores and Ranking",
                 "5.1 Competition Ranking Calculation",
                 "5.2 Penalties",
                 "5.3 League Tournament Ranking Calculation"
@@ -738,6 +637,10 @@
         {
             "title":"Advancement Criteria",
             "table":[
+                "6.0 Advancement Criteria",
+                "6.1 Eligibility for Advancement",
+                "6.1.1 Inspire Award Eligibility",
+                "6.2 Order of Advancement"
 
             ],
             "content":[
@@ -747,6 +650,7 @@
                 {
                     "title":"Eligibility for Advancement",
                     "table":[
+                        "6.1 Eligibility for Advancement",
                         "6.1.1 Inspire Award Eligibility"
                     ],
                     "content":[
@@ -844,9 +748,16 @@
         {
             "title":"The Robot",
             "table":[
+                "7.0 The Robot",
                 "7.1 Overview",
                 "7.2 Robot Control System",
+                "7.2.1 Robot Technology Definitions",
                 "7.3 Robot Rules",
+                "7.3.1 General Robot Rules",
+                "7.3.2 Robot Mechanical Parts and Materials Rules",
+                "7.3.3 Robot Electrical Parts and Materials Rules",
+                "7.3.4 Driver Station Rules",
+                "7.3.5 Robot Software Rules",
                 "7.4 Team Scoring Element"
             ],
             "content":[
@@ -1720,7 +1631,7 @@
                                 "- Robot distinguishes itself from others by its aesthetic and functional design.",
                                 "- Basis for the design is well considered (that is inspiration, function, etc.).",
                                 "- Robot design is effective and consistent with Team plan and strategy.",
-                                "- The engineering portfolio should inspire the judges to want to see the specific detailed design content and design journey in the engineering notebook.",
+                                "- The engineering portfolio should inspire the judges to want to see the specific detailed design content and design journey in the engineering notebook."
                             ]
                         },
                         {
@@ -1809,6 +1720,9 @@
                         "- Students must be a sophomore (grade 10) or junior (grade 11) to be eligible for this award.",
                         "Note: For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for students who are two (2) to three (3) years away from entering college or university. Students that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.",
                         "- The coach or mentor nominating the student(s) must submit an essay explaining why the student should receive this award. The essay must be 4,000 characters or less."
+                    ],
+                    "subsections":[
+
                     ]
                 },
                 {
@@ -1822,12 +1736,18 @@
                         "- Technical expertise and passion",
                         "- Entrepreneurship and creativity",
                         "- Ability to motivate and lead fellow Team members"
+                    ],
+                    "subsections":[
+                        
                     ]
                 },
                 {
                     "title":"Dean's List Nominations",
                     "content":[
                         "There are specific instructions on how to submit Dean’s List Nominations. There are two sets of instructions, The Dean’s List Nomination Guide – US, and the Dean’s List Nomination Guide – International. Please visit our website (https://www.firstinspires.org/robotics/ftc/deans-list) for a copy of the guides, which provides in depth information about the Dean’s List, and step by step visual aids to complete the nominations."
+                    ],
+                    "subsections":[
+                        
                     ]
                 }
             ]
