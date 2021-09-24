@@ -2,20 +2,16 @@ import json
 
 def get_manual_json(manual):
     try:
-        return json.load(open('project/'+manual+'.json'))
+        return json.load(open(manual+'.json'))
     except:
         return None
 
 def table( input ):
     file = ''
     args = input.split(' ')
-    if args[0] == 'gm1':
-        file = open('project/gm1.json')
-    elif args[0] == 'gm2':
-        file = open('project/gm2.json')
-    else:
+    data = get_manual_json( args[0] )
+    if not data:
         return "Invalid Manual!"
-    data = json.load(file)
     if len(args)-1:
         args_split = args[1].split('.')
         size = len(args_split)
@@ -33,7 +29,7 @@ def table( input ):
         return items(data['content'])
             
 
-def items(section, pre = ''):
+def items(section, pre = '', start_tab=''):
     string = ''
     for sn in range(len(section)):
         loc = ''
@@ -45,17 +41,17 @@ def items(section, pre = ''):
                 loc = pre_split[0]+'.'+str(sn+1)
         else:
             loc = str(sn+1)+".0"
-        string += loc + " " + section[sn]['title'] + "\n"
+        string += start_tab + loc + ' ' + section[sn]['title'] + "\n"
         #print(string)
         if has_subsections(section[sn]):
-            string += items( section[sn]['subsections'], loc )
+            string += items( section[sn]['subsections'], loc, start_tab+'\t')
     return string
 
 def specific_item(section, pre):
     string = ''
-    string += pre + " " + section['title'] + "\n"
+    string += pre + ' ' + section['title'] + "\n"
     if has_subsections(section):
-            string += items( section['subsections'], pre )
+            string += items( section['subsections'], pre, '\t' )
     return string
 
 def has_subsections(section):
@@ -77,28 +73,29 @@ def read(data):
         if len(num_split) == 2:
             if num_split[1]:
                 section = manual_json['content'][num_split[0]-1]['subsections'][num_split[1]-1]
-                out += section['title']+"\n\n"
+                out += '__**'+section['title']+'**__'+"\n\n"
                 for line in section['content']:
                     out += line + "\n"
                 for sub in section['subsections']:
-                    out += "\t" + sub['title'] + "\n\n"
+                    out += "\t" + "__**" + sub['title'] +'**__'+ "\n\n"
                     for line in sub['content']:
                         out += "\t" + line + "\n"
             else:
-                out += manual_json['content'][num_split[0]-1]['title']+"\n\n"
-                for line in manual_json['content'][num_split[0]-1]['content']:
+                section = manual_json['content'][num_split[0]-1]
+                out += '__**' + section['title'] + '**__' + "\n\n"
+                for line in section['content']:
                     out += line + "\n"
-                for sub in manual_json['content'][num_split[0]-1]['subsections']:
-                    out += "\t" + sub['title'] + "\n\n"
+                for sub in section['subsections']:
+                    out += "\t" + '__**' + sub['title'] + '**__' + "\n\n"
                     for line in sub['content']:
                         out += "\t" + line + "\n"
                     for subsub in sub['subsections']:
-                        out += "\t\t" + subsub['title'] + "\n\n"
+                        out += "\t\t" + '__**' + subsub['title'] + '**__'  + "\n\n"
                         for line in subsub['content']:
                             out += "\t\t" + line + "\n"
         else:
             subsub = manual_json['content'][num_split[0]-1]['subsections'][num_split[1]-1]['subsections'][num_split[2]-1]
-            out += subsub['title'] + "\n\n"
+            out += '__**' + subsub['title'] + '**__' + "\n\n"
             for line in subsub['content']:
                 out += line + "\n"
         return out
@@ -125,18 +122,23 @@ def validate_section(manual, section):
         return False
 
 def cmd( data ):
+    global active
     args = data[1:].split(' ')
     main_arg = args.pop(0)
     if len(args) == 2:
         datas = args[0] + " " + args[1]
-    else:
+    elif len(args) == 1:
         datas = args[0]
     if main_arg == "table":
         return table(datas)
     elif main_arg == "read":
         return read(datas)
+    elif main_arg == "exit":
+        active = False
+        return 'Exiting...'
     return "Invalid Command!"
 #print("Final:", table('gm2'), sep='\n')
-while True:
+active = True
+while active:
     print(cmd(input()))
 #print("Final:", table('gm1 3.0'), sep='\n')
