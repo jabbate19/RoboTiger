@@ -1,6 +1,6 @@
 import json
 
-def get_manual_json(manual):
+def get_json(manual):
     try:
         return json.load(open(manual+'.json'))
     except:
@@ -8,7 +8,7 @@ def get_manual_json(manual):
 
 def table( data ):
     file = ''
-    man = get_manual_json( data[0] )
+    man = get_json( data[0] )
     if not man:
         return "Invalid Manual!"
     if len(data)-1:
@@ -22,10 +22,10 @@ def table( data ):
         except ValueError:
             return "Invalid Section Notation!"
         if section[1]:
-            return specific_item(data['content'][section[0]-1]['subsections'][section[1]-1],data[1])
-        return specific_item(data['content'][section[0]-1],data[1])
+            return specific_item(man['content'][section[0]-1]['subsections'][section[1]-1],data[1])
+        return specific_item(man['content'][section[0]-1],data[1])
     else:
-        return items(data['content'])
+        return items(man['content'])
             
 
 def items(section, pre = '', start_tab=''):
@@ -61,7 +61,7 @@ def has_subsections(section):
 
 def read(data):
     manual = data[0]
-    manual_json = get_manual_json(manual)
+    manual_json = get_json(manual)
     if not manual_json:
         return "Invalid Manual!"
     section_num = data[1]
@@ -100,7 +100,7 @@ def read(data):
     return "Invalid Section!"
 
 def validate_section(manual, section):
-    man = get_manual_json(manual)
+    man = get_json(manual)
     try:
         num_split = [ int(x) for x in section.split('.') ]
     except ValueError:
@@ -139,10 +139,66 @@ def help(args):
     return out
 
 def rule( data ):
+    rules = get_json("rules")
+    out = ''
+    rule_to_section={
+        "C":"Competition",
+        "RG":"General Robot",
+        "RM":"Robot Mechanical",
+        "RE":"Robot Electrical",
+        "DS":"Driver Station",
+        "RS":"Robot Software",
+        "TE":"Team Scoring Element",
+        "I":"Inspection",
+        "S":"Safety",
+        "G":"General Game",
+        "GS":"Game Specific"
+    }
     if data:
-        pass
+        if containsNumber(data[0]):
+            rule_type = ''
+            try:
+                test = int(data[0][1])
+                rule_type = data[0][0]
+            except:
+                rule_type = data[0][:1]
+            try:
+                print(rule_type)
+                rule_type = rule_to_section[rule_type]
+                print(rule_type)
+                out += '**' + data[0] + '**' + '\n'
+                print(rules[rule_type])
+                for line in rules[rule_type][data[0]]:
+                    out += line + '\n'
+            except:
+                out = "Invalid Rule!"
+        else:
+            try:
+                rule_type=rule_to_section[data[0]]
+                out += '__**' + rule_type + '**__' + '\n\n'
+                for rule in list(rules[rule_type].keys()):
+                    out += '**' + rule + '**' + '\n'
+                    for line in rules[rule_type][rule]:
+                        out += line + '\n'
+
+            except:
+                out = "Invalid Rule Section!"
     else:
-        pass
+        for section in list(rules.keys()):
+            out += "__**" + section + "**__" + '\n'
+            nums = list(rules[section].keys())
+            for r in range(len(nums)):
+                out += nums[r]
+                if r != len(list(rules[section].keys()))-1:
+                    out += ', '
+            out += "\n\n"
+    return out
+
+def containsNumber(value):
+    for character in value:
+        if character.isdigit():
+            return True
+    return False
 
 def cmd( data ):
     global active
@@ -152,16 +208,18 @@ def cmd( data ):
         return table(args)
     elif main_arg == "read":
         return read(args)
+    elif main_arg == "rule":
+        return rule(args)
     elif main_arg == "help":
         return help(args)
     elif main_arg == "exit":
         active = False
         return 'Exiting...'
     return "Invalid Command!"
-#print("Final:", table('gm2'), sep='\n')
+
+
 active = True
 while active:
     i = input("> ")
-    print(">",i)
     print(cmd(i))
 #print("Final:", table('gm1 3.0'), sep='\n')
