@@ -6,14 +6,13 @@ def get_manual_json(manual):
     except:
         return None
 
-def table( input ):
+def table( data ):
     file = ''
-    args = input.split(' ')
-    data = get_manual_json( args[0] )
-    if not data:
+    man = get_manual_json( data[0] )
+    if not man:
         return "Invalid Manual!"
-    if len(args)-1:
-        args_split = args[1].split('.')
+    if len(data)-1:
+        args_split = data[1].split('.')
         size = len(args_split)
         if size != 2:
             return "Invalid Section Notation!"
@@ -23,8 +22,8 @@ def table( input ):
         except ValueError:
             return "Invalid Section Notation!"
         if section[1]:
-            return specific_item(data['content'][section[0]-1]['subsections'][section[1]-1],args[1])
-        return specific_item(data['content'][section[0]-1],args[1])
+            return specific_item(data['content'][section[0]-1]['subsections'][section[1]-1],data[1])
+        return specific_item(data['content'][section[0]-1],data[1])
     else:
         return items(data['content'])
             
@@ -61,12 +60,11 @@ def has_subsections(section):
         return False
 
 def read(data):
-    args_split = data.split(' ')
-    manual = args_split[0]
+    manual = data[0]
     manual_json = get_manual_json(manual)
     if not manual_json:
         return "Invalid Manual!"
-    section_num = args_split[1]
+    section_num = data[1]
     num_split = [ int(x) for x in section_num.split('.') ]
     if validate_section( manual, section_num ):
         out = ''
@@ -121,18 +119,41 @@ def validate_section(manual, section):
     except Exception as e:
         return False
 
+def help(args):
+    with open('project/help.json') as f:
+        h = json.load(f)
+        out = ''
+        if args:
+            try:
+                section = h[args[0]]
+                out += '**'+section['header']+'**'+'\n'
+                out += section['syntax']+'\n'
+                for line in section['info']:
+                    out += line + '\n'
+            except:
+                out = "Command " + args[0] + " not found!"
+        else:
+            cmds = list(h.keys()).sort()
+            for cmd in cmds:
+                out += help([cmd])+'\n'
+    return out
+
+def rule( data ):
+    if data:
+        pass
+    else:
+        pass
+
 def cmd( data ):
     global active
     args = data[1:].split(' ')
     main_arg = args.pop(0)
-    if len(args) == 2:
-        datas = args[0] + " " + args[1]
-    elif len(args) == 1:
-        datas = args[0]
     if main_arg == "table":
-        return table(datas)
+        return table(args)
     elif main_arg == "read":
-        return read(datas)
+        return read(args)
+    elif main_arg == "help":
+        return help(args)
     elif main_arg == "exit":
         active = False
         return 'Exiting...'
@@ -140,5 +161,7 @@ def cmd( data ):
 #print("Final:", table('gm2'), sep='\n')
 active = True
 while active:
-    print(cmd(input()))
+    i = input("> ")
+    print(">",i)
+    print(cmd(i))
 #print("Final:", table('gm1 3.0'), sep='\n')
