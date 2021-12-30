@@ -18,8 +18,8 @@ import discord
 from discord.ext import tasks
 from discord.ext.commands import Bot
 import asyncio
-sys.path.append('/opt/app-root/src/project')
 import DataFind
+sys.path.append('/opt/app-root/src/project')
 """	
 Setup bot intents (events restrictions)
 For more information about intents, please go to the following websites:
