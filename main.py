@@ -13,10 +13,13 @@ import sys
 import math
 import time
 import requests as r
+
 import discord
 from discord.ext import tasks
 from discord.ext.commands import Bot
-
+import asyncio
+sys.path.append('/opt/app-root/src/project')
+import DataFind
 """	
 Setup bot intents (events restrictions)
 For more information about intents, please go to the following websites:
@@ -49,7 +52,7 @@ intents.members = True
 
 intents = discord.Intents.default()
 
-bot = Bot(command_prefix='them good memes', intents=intents)
+bot = Bot(command_prefix='>', intents=intents)
 #client = discord.Client()
 last_time_checked=time.time()
 
@@ -69,7 +72,7 @@ async def on_ready():
 @tasks.loop(minutes=5.0)
 async def status_task():
     global last_time_checked
-    await bot.change_presence(activity=discord.Game("them good memes"))
+    await bot.change_presence(activity=discord.Game(">help"))
     posts = r.get('https://www.reddit.com/r/FTC/new/.json', headers = {'User-agent': 'your bot 0.1'})
     posts = posts.json()
     posts = posts['data']['children']
@@ -82,39 +85,71 @@ async def status_task():
         url = meme['data']['url']
         if url[-4:] == ".jpg" or url[-4:] == ".png" or url[-5:] == ".jpeg":
             embed.set_image(url=meme['data']['url'])
-        channel = bot.get_channel(890416261396324382)
-        await channel.send(embed=embed)
+        for guild in bot.guilds:
+            channel = discord.utils.get(guild.text_channels, name="memes")
+            if channel:
+                await channel.send(embed=embed)
     last_time_checked = math.floor(time.time())
 
 
 # Removes the default help command of discord.py to be able to create our custom help command.
-bot.remove_command("help")
-'''
-if __name__ == "__main__":
-    for file in os.listdir("./cogs"):
-        if file.endswith(".py"):
-            extension = file[:-3]
-            try:
-                bot.load_extension(f"cogs.{extension}")
-                print(f"Loaded extension '{extension}'")
-            except Exception as e:
-                exception = f"{type(e).__name__}: {e}"
-                print(f"Failed to load extension {extension}\n{exception}")
-'''
-
 # The code in this event is executed every time someone sends a message, with or without the prefix
 @bot.event
 async def on_message(message):
     # Ignores if a command is being executed by a bot or by the bot itself
     if message.author == bot.user or message.author.bot:
         return
-    await bot.process_commands(message)
+    if message.content[0]=='>':
+        out = DataFind.cmd(message.content)
+        pages = []
+        while len(out) > 5500:
+            pages.append(out[:4499]+'-')
+            out = out[4499:]
+        pages.append( out )
+        embs = []
+        for page in pages:
+            embed=discord.Embed(title="RoboTiger",description=message.content, color=0xe67e22)
+            while len(page) > 1024:
+                val = page[:1022]
+                embed.add_field(name="\u200b",value=val+'-', inline=False)
+                page = page[1022:]
+            embed.add_field(name="\u200b",value=page, inline=False)
+            embs.append( embed )
+        buttons = [u"\u23EA", u"\u2B05", u"\u27A1", u"\u23E9"] # skip to start, left, right, skip to end
+        current = 0
+        msg = await message.channel.send(embed=embs[current])
+        if len(pages) > 1:
+            for button in buttons:
+                await msg.add_reaction(button)
+                
+            while True:
+                try:
+                    reaction, user = await bot.wait_for("reaction_add", check=lambda reaction, user: user == message.author and reaction.emoji in buttons, timeout=60.0)
 
-# The code in this event is executed every time a valid commands catches an error
-@bot.event
-async def on_command_error(context, error):
-    raise error
+                except asyncio.TimeoutError:
+                    return print("test")
 
+                else:
+                    previous_page = current
+                    if reaction.emoji == u"\u23EA":
+                        current = 0
+                        
+                    elif reaction.emoji == u"\u2B05":
+                        if current > 0:
+                            current -= 1
+                            
+                    elif reaction.emoji == u"\u27A1":
+                        if current < len(embs)-1:
+                            current += 1
+
+                    elif reaction.emoji == u"\u23E9":
+                        current = len(embs)-1
+
+                    for button in buttons:
+                        await msg.remove_reaction(button, message.author)
+
+                    if current != previous_page:
+                        await msg.edit(embed=embs[current])
 
 # Run the bot with the token
 bot.run(os.environ.get('DISCORD'))
